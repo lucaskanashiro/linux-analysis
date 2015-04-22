@@ -1,0 +1,608 @@
+[linux-v2.6.26-rc9/Documentation/connector/ucon.c:124]: (error) Resource leak: out
+[linux-v2.6.26-rc9/Documentation/connector/ucon.c:206]: (error) Resource leak: out
+[linux-v2.6.26-rc9/Documentation/lguest/lguest.c:1623]: (error) Memory leak: stack
+[linux-v2.6.26-rc9/arch/alpha/kernel/osf_sys.c:1067]: (error) Uninitialized variable: r
+[linux-v2.6.26-rc9/arch/arm/mach-iop13xx/pci.c:1030]: (error) Memory leak: res
+[linux-v2.6.26-rc9/arch/arm/mach-shark/core.c:58]: (error) Uninitialized variable: ret
+[linux-v2.6.26-rc9/arch/arm/plat-omap/i2c.c:121]: (error) Uninitialized variable: ports
+[linux-v2.6.26-rc9/arch/blackfin/kernel/traps.c:80]: (error) Uninitialized variable: in_atomic
+[linux-v2.6.26-rc9/arch/cris/arch-v32/drivers/axisflashmap.c:292]: (error) Uninitialized variable: mtd_total
+[linux-v2.6.26-rc9/arch/cris/arch-v32/drivers/cryptocop.c:1397]: (error) Memory leak: p
+[linux-v2.6.26-rc9/arch/cris/arch-v32/drivers/cryptocop.c:1429]: (error) Memory leak: p
+[linux-v2.6.26-rc9/arch/cris/arch-v32/drivers/cryptocop.c:1849]: (error) Memory leak: pj
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: ''.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_BUG'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_ETRAX_KGB_PORT2;CONFIG_ETRAX_KGDB'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_ETRAX_KGDB'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_ETRAX_KGDB;CONFIG_ETRAX_KGDB_PORT0'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_ETRAX_KGDB;CONFIG_ETRAX_KGDB_PORT1'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_ETRAX_KGDB;CONFIG_ETRAX_KGDB_PORT3'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/kernel/irq.c:386]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_SMP'.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/drivers/sync_serial.c:283]: (error) Array 'ports[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/arch/cris/arch-v32/mach-fs/vcs_hook.c:52]: (error) va_start() or va_copy() called subsequently on 'ap' without va_end() inbetween.
+[linux-v2.6.26-rc9/arch/frv/kernel/pm.c:166]: (error) Uninitialized variable: retval
+[linux-v2.6.26-rc9/arch/frv/kernel/time.c:127]: (error) Uninitialized variable: year
+[linux-v2.6.26-rc9/arch/frv/kernel/time.c:127]: (error) Uninitialized variable: mon
+[linux-v2.6.26-rc9/arch/frv/kernel/time.c:127]: (error) Uninitialized variable: day
+[linux-v2.6.26-rc9/arch/frv/kernel/time.c:127]: (error) Uninitialized variable: hour
+[linux-v2.6.26-rc9/arch/frv/kernel/time.c:127]: (error) Uninitialized variable: min
+[linux-v2.6.26-rc9/arch/frv/kernel/time.c:127]: (error) Uninitialized variable: sec
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:648]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:946]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:970]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:991]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:1154]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:1468]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:2051]: (error) Memory leak: ioc
+[linux-v2.6.26-rc9/arch/ia64/hp/common/sba_iommu.c:1119]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.26-rc9/arch/ia64/ia32/sys_ia32.c:1914]: (error) Uninitialized struct member: buf32.ss_size
+[linux-v2.6.26-rc9/arch/ia64/ia32/sys_ia32.c:2220]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/ia64/kernel/palinfo.c:133]: (error) Array 'units[5]' accessed at index 6, which is out of bounds.
+[linux-v2.6.26-rc9/arch/ia64/sn/kernel/io_common.c:444]: (error) Undefined behavior: Variable 'address' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/arch/ia64/sn/kernel/sn2/sn_hwperf.c:281]: (error) Possible null pointer dereference: nodeobj
+[linux-v2.6.26-rc9/arch/ia64/sn/pci/tioce_provider.c:1040]: (error) Memory leak: tioce_kern
+[linux-v2.6.26-rc9/arch/m32r/kernel/ptrace.c:118]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/m68k/mm/kmap.c:70]: (error) Memory leak: area
+[linux-v2.6.26-rc9/arch/m68k/mm/kmap.c:222]: (error) Memory leak: area
+[linux-v2.6.26-rc9/arch/mips/kernel/linux32.c:286]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/mips/kernel/linux32.c:487]: (error) Uninitialized variable: tmp
+[linux-v2.6.26-rc9/arch/mips/kernel/signal.c:147]: (error) Uninitialized variable: used_math
+[linux-v2.6.26-rc9/arch/mips/kernel/signal32.c:180]: (error) Uninitialized variable: used_math
+[linux-v2.6.26-rc9/arch/mips/kernel/signal32.c:806]: (error) Uninitialized variable: ru
+[linux-v2.6.26-rc9/arch/mips/mips-boards/generic/time.c:115]: (error) Uninitialized variable: count
+[linux-v2.6.26-rc9/arch/mips/mips-boards/generic/time.c:118]: (error) Uninitialized variable: count
+[linux-v2.6.26-rc9/arch/mips/mips-boards/generic/time.c:120]: (error) Uninitialized variable: count
+[linux-v2.6.26-rc9/arch/mips/mipssim/sim_time.c:100]: (error) Invalid number of character ({) when these macros are defined: ''.
+[linux-v2.6.26-rc9/arch/mips/pmc-sierra/yosemite/ht.c:280]: (error) Uninitialized variable: cmd
+[linux-v2.6.26-rc9/arch/mips/pmc-sierra/yosemite/ht.c:298]: (error) Uninitialized variable: cmd
+[linux-v2.6.26-rc9/arch/mips/pmc-sierra/yosemite/ht.c:312]: (error) Uninitialized variable: cmd
+[linux-v2.6.26-rc9/arch/mips/sgi-ip32/ip32-reset.c:97]: (error) Uninitialized variable: reg_a
+[linux-v2.6.26-rc9/arch/mips/sgi-ip32/ip32-reset.c:107]: (error) Uninitialized variable: reg_a
+[linux-v2.6.26-rc9/arch/mips/sgi-ip32/ip32-reset.c:110]: (error) Uninitialized variable: reg_a
+[linux-v2.6.26-rc9/arch/mips/sibyte/cfe/console.c:63]: (error) Invalid number of character ({) when these macros are defined: ''.
+[linux-v2.6.26-rc9/arch/mips/sibyte/cfe/console.c:63]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_VGA_CONSOLE'.
+[linux-v2.6.26-rc9/arch/mn10300/boot/tools/build.c:54]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/mn10300/kernel/ptrace.c:111]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/mn10300/kernel/ptrace.c:113]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/mn10300/kernel/ptrace.c:126]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/mn10300/kernel/ptrace.c:128]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/parisc/kernel/sys_parisc32.c:176]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/parisc/lib/memcpy.c:256]: (error) Uninitialized variable: dummy
+[linux-v2.6.26-rc9/arch/parisc/lib/memcpy.c:257]: (error) Uninitialized variable: dummy
+[linux-v2.6.26-rc9/arch/parisc/lib/memcpy.c:450]: (error) Uninitialized variable: dummy
+[linux-v2.6.26-rc9/arch/parisc/lib/memcpy.c:451]: (error) Uninitialized variable: dummy
+[linux-v2.6.26-rc9/arch/powerpc/boot/addRamDisk.c:305]: (error) Deallocating a deallocated pointer: outputVmlinux
+[linux-v2.6.26-rc9/arch/powerpc/boot/dtc-src/dtc.h:56]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/powerpc/boot/dtc-src/checks.c:99]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/powerpc/kernel/prom_init.c:358]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/powerpc/kernel/sys_ppc32.c:403]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/powerpc/platforms/cell/cbe_thermal.c:131]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/arch/powerpc/platforms/powermac/bootx_init.c:86]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/powerpc/platforms/powermac/low_i2c.c:1387]: (error) Array 'inst.buffer[64]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/arch/powerpc/platforms/pseries/reconfig.c:443]: (error) Memory leak: newprop
+[linux-v2.6.26-rc9/arch/ppc/4xx_io/serial_sicc.c:532]: (error) Uninitialized variable: status
+[linux-v2.6.26-rc9/arch/ppc/boot/utils/mkprep.c:108]: (error) Resource leak: in
+[linux-v2.6.26-rc9/arch/ppc/boot/utils/mkprep.c:108]: (error) Resource leak: out
+[linux-v2.6.26-rc9/arch/ppc/platforms/lopec.c:247]: (error) syntax error
+[linux-v2.6.26-rc9/fs/binfmt_elf.c:168]: (error) Null pointer dereference
+[linux-v2.6.26-rc9/arch/s390/kernel/compat_linux.c:409]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/s390/kernel/compat_linux.c:436]: (error) Uninitialized variable: s
+[linux-v2.6.26-rc9/arch/s390/kernel/compat_linux.c:437]: (error) Uninitialized variable: s
+[linux-v2.6.26-rc9/arch/s390/kernel/compat_linux.c:463]: (error) Uninitialized variable: s
+[linux-v2.6.26-rc9/arch/s390/kernel/early.c:81]: (error) Undefined behavior: Variable 'defsys_cmd' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/arch/s390/kernel/early.c:86]: (error) Undefined behavior: Variable 'defsys_cmd' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/arch/s390/kernel/ipl.c:491]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.26-rc9/arch/s390/kernel/ipl.c:493]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.26-rc9/arch/s390/kernel/ipl.c:843]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.26-rc9/arch/s390/kernel/ipl.c:845]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:148]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:153]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:157]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:161]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:174]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:180]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:184]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:186]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:190]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:194]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:141]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:168]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:221]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:382]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:386]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:390]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:399]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:403]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:406]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:412]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:416]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:419]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/s390/kernel/ptrace.c:423]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.26-rc9/arch/sh/drivers/push-switch.c:26]: (error) syntax error
+[linux-v2.6.26-rc9/arch/sh/kernel/ptrace_32.c:113]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:359]: (error) Array 't_nmi[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:360]: (error) Array 't_nmi[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:361]: (error) Array 't_nmi[1]' accessed at index 3, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:359]: (error) Array 'pcic_nmi_trap_patch[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:360]: (error) Array 'pcic_nmi_trap_patch[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:361]: (error) Array 'pcic_nmi_trap_patch[1]' accessed at index 3, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc/kernel/pcic.c:700]: (error) Uninitialized variable: irq
+[linux-v2.6.26-rc9/arch/sparc64/kernel/starfire.c:111]: (error) Array 'p.imap_slots[32]' accessed at index 32, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc64/kernel/starfire.c:118]: (error) Array 'p.tregs[32]' accessed at index 32, which is out of bounds.
+[linux-v2.6.26-rc9/arch/sparc64/kernel/sysfs.c:147]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.26-rc9/arch/sparc64/kernel/sys_sparc32.c:457]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/um/drivers/net_user.c:257]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/um/os-Linux/mem.c:178]: (error) Memory leak: tempname
+[linux-v2.6.26-rc9/arch/um/os-Linux/process.c:263]: (error) Address of local auto-variable assigned to a function parameter.
+[linux-v2.6.26-rc9/arch/um/os-Linux/uaccess.c:18]: (error) Address of local auto-variable assigned to a function parameter.
+[linux-v2.6.26-rc9/arch/x86/boot/compressed/relocs.c:625]: (error) Resource leak: fp
+[linux-v2.6.26-rc9/arch/x86/boot/tools/build.c:129]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/arch/x86/ia32/sys_ia32.c:513]: (error) Uninitialized variable: t
+[linux-v2.6.26-rc9/arch/x86/ia32/sys_ia32.c:757]: (error) Uninitialized variable: u
+[linux-v2.6.26-rc9/arch/x86/kernel/efi.c:287]: (error) Array 'vendor[100]' accessed at index 100, which is out of bounds.
+[linux-v2.6.26-rc9/arch/x86/kernel/e820_64.c:103]: (error) Array 'early_res[20]' accessed at index 21, which is out of bounds.
+[linux-v2.6.26-rc9/arch/x86/mach-voyager/voyager_smp.c:386]: (error) Uninitialized variable: phys_cpu_present_map
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_2xm1.c:127]: (error) Uninitialized struct member: Denom.msw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_2xm1.c:73]: (error) Uninitialized struct member: argSignif.msw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_atan.c:92]: (error) Uninitialized variable: argSignif
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_l2.c:205]: (error) Uninitialized struct member: Numer.msw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_l2.c:194]: (error) Uninitialized variable: argSignif
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_l2.c:199]: (error) Uninitialized variable: argSignif
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_l2.c:218]: (error) Uninitialized struct member: argSignif.lsw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_l2.c:219]: (error) Uninitialized struct member: argSignif.midw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_tan.c:108]: (error) Uninitialized struct member: accum.lsw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_tan.c:186]: (error) Uninitialized struct member: fix_up.msw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_sin.c:352]: (error) Uninitialized struct member: fix_up.msw
+[linux-v2.6.26-rc9/arch/x86/math-emu/poly_l2.c:212]: (error) Uninitialized struct member: argSignif.msw
+[linux-v2.6.26-rc9/arch/xtensa/platforms/iss/network.c:164]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/drivers/acpi/container.c:222]: (error) Possible null pointer dereference: hid
+[linux-v2.6.26-rc9/drivers/acpi/battery.c:426]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.26-rc9/drivers/acpi/sbs.c:457]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.26-rc9/drivers/char/drm/drm_drv.c:474] -> [linux-v2.6.26-rc9/drivers/char/drm/drm_drv.c:473]: (warning) Array 'drm_ioctls[47]' accessed at index 160, which is out of bounds. Otherwise condition 'nr>=160' is redundant.
+[linux-v2.6.26-rc9/drivers/char/drm/drm_ioc32.c:361]: (error) Uninitialized variable: s32
+[linux-v2.6.26-rc9/drivers/char/drm/drm_mm.c:162]: (error) Memory leak: align_splitoff
+[linux-v2.6.26-rc9/drivers/char/drm/i915_drv.c:528]: (error) Array 'dev_priv.saveSWF1[16]' accessed at index 22, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/char/ip2/i2cmd.c:207]: (error) Array 'pCM.cmd[2]' accessed at index 2, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/char/isicom.c:1748]: (error) Possible null pointer dereference: board
+[linux-v2.6.26-rc9/drivers/char/isicom.c:1749]: (error) Possible null pointer dereference: board
+[linux-v2.6.26-rc9/drivers/char/isicom.c:1750]: (error) Possible null pointer dereference: board
+[linux-v2.6.26-rc9/drivers/char/mxser.c:2422]: (error) Possible null pointer dereference: brd
+[linux-v2.6.26-rc9/drivers/char/vme_scc.c:984]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/char/vme_scc.c:986]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/char/vme_scc.c:988]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/hwmon/ams/ams-input.c:113]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.26-rc9/drivers/ide/ppc/mpc8xx.c:474]: (error) Uninitialized variable: _slot_
+[linux-v2.6.26-rc9/drivers/infiniband/hw/cxgb3/iwch_provider.c:579]: (error) Uninitialized variable: npages
+[linux-v2.6.26-rc9/drivers/infiniband/hw/ipath/ipath_diag.c:363]: (error) Uninitialized struct member: dp.unit
+[linux-v2.6.26-rc9/drivers/infiniband/ulp/iser/iser_verbs.c:518]: (error) sprintf format string requires 5 parameters but only 2 are given.
+[linux-v2.6.26-rc9/drivers/input/keyboard/omap-keypad.c:250]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/isdn/gigaset/ev-layer.c:566]: (error) Array index -1 is out of bounds.
+[linux-v2.6.26-rc9/drivers/isdn/i4l/isdn_ttyfax.c:329]: (error) Uninitialized variable: c
+[linux-v2.6.26-rc9/drivers/isdn/icn/icn.c:1578]: (error) Memory leak: card
+[linux-v2.6.26-rc9/drivers/isdn/isdnloop/isdnloop.c:1490]: (error) Memory leak: card
+[linux-v2.6.26-rc9/drivers/leds/leds-ams-delta.c:115]: (error) Array 'ams_delta_leds[6]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/lguest/lguest_device.c:359]: (error) Memory leak: ldev
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm121.c:540]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm121.c:553]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm121.c:557]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:294]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:295]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:296]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:297]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:300]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:301]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:302]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/macintosh/windfarm_pm81.c:305]: (error) Possible null pointer dereference: param
+[linux-v2.6.26-rc9/drivers/md/dm-mpath.c:1379]: (error) Possible null pointer dereference: bdev
+[linux-v2.6.26-rc9/drivers/md/dm-mpath.c:1380]: (error) Possible null pointer dereference: bdev
+[linux-v2.6.26-rc9/drivers/media/dvb/pluto2/pluto2.c:480]: (error) Array 'buf[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/dvb/pluto2/pluto2.c:481]: (error) Array 'buf[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/dvb/pluto2/pluto2.c:482]: (error) Array 'buf[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/dvb/pluto2/pluto2.c:484]: (error) Array 'buf[4]' accessed at index 5, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/dvb/ttpci/fdump.c:27]: (error) Resource leak: fd_in
+[linux-v2.6.26-rc9/drivers/media/video/cafe_ccic.c:1457]: (error) Possible null pointer dereference: sbuf
+[linux-v2.6.26-rc9/drivers/media/video/cafe_ccic.c:1463]: (error) Possible null pointer dereference: sbuf
+[linux-v2.6.26-rc9/drivers/media/video/saa7134/saa7134-video.c:1925]: (error) Array 'saa7134_boards[dev.board].inputs[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/video/se401.c:1272]: (error) Undefined behavior: Variable 'temp' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/drivers/media/video/se401.c:1274]: (error) Undefined behavior: Variable 'temp' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/drivers/media/video/usbvideo/vicam.c:483]: (error) Array 'firmware[7]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/video/usbvideo/vicam.c:486]: (error) Array 'firmware[7]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/media/video/videodev.c:554]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/media/video/videodev.c:556]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/media/video/videodev.c:1822]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/media/video/videodev.c:1824]: (error) Possible null pointer dereference: p
+[linux-v2.6.26-rc9/drivers/media/video/zoran_driver.c:1232]: (error) Possible null pointer dereference: zr
+[linux-v2.6.26-rc9/drivers/message/i2o/i2o_proc.c:266]: (error) Pointer to local array variable returned.
+[linux-v2.6.26-rc9/drivers/misc/hdpuftrs/hdpu_nexus.c:119]: (error) Invalid number of character ({) when these macros are defined: ''.
+[linux-v2.6.26-rc9/drivers/misc/sgi-xp/xpc_channel.c:1822]: (error) Uninitialized variable: notify
+[linux-v2.6.26-rc9/drivers/misc/sgi-xp/xpc_partition.c:994]: (error) Memory leak: remote_rp_base
+[linux-v2.6.26-rc9/drivers/misc/sgi-xp/xpc_partition.c:106]: (error) Uninitialized variable: buf
+[linux-v2.6.26-rc9/drivers/misc/thinkpad_acpi.c:3789]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/misc/thinkpad_acpi.c:4172]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/misc/thinkpad_acpi.c:4566]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/mtd/maps/ceiva.c:270]: (error) Uninitialized variable: nr
+[linux-v2.6.26-rc9/drivers/mtd/mtdcore.c:267]: (error) Possible null pointer dereference: mtd
+[linux-v2.6.26-rc9/drivers/mtd/mtdcore.c:270]: (error) Possible null pointer dereference: mtd
+[linux-v2.6.26-rc9/drivers/mtd/redboot.c:202]: (error) Possible null pointer dereference: fl
+[linux-v2.6.26-rc9/drivers/mtd/redboot.c:232]: (error) Possible null pointer dereference: fl
+[linux-v2.6.26-rc9/drivers/mtd/redboot.c:234]: (error) Possible null pointer dereference: fl
+[linux-v2.6.26-rc9/drivers/mtd/ubi/eba.c:1196]: (error) Uninitialized variable: seb
+[linux-v2.6.26-rc9/drivers/mtd/ubi/wl.c:535]: (error) Possible null pointer dereference: e
+[linux-v2.6.26-rc9/drivers/net/bonding/bond_sysfs.c:684]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/drivers/net/bnx2x.c:4856]: (error) Memory leak: diff.hi
+[linux-v2.6.26-rc9/drivers/net/bnx2x.c:4856]: (error) Memory leak: diff.lo
+[linux-v2.6.26-rc9/drivers/net/bnx2.c:1202]: (error) Uninitialized variable: bmcr
+[linux-v2.6.26-rc9/drivers/net/bnx2.c:1236]: (error) Uninitialized variable: bmcr
+[linux-v2.6.26-rc9/drivers/net/cxgb3/cxgb3_offload.c:174]: (error) Possible null pointer dereference: dev
+[linux-v2.6.26-rc9/drivers/net/e1000/e1000_hw.c:7255]: (error) Uninitialized variable: phy_data
+[linux-v2.6.26-rc9/drivers/net/e1000/e1000_hw.c:7264]: (error) Uninitialized variable: phy_data
+[linux-v2.6.26-rc9/drivers/net/e1000/e1000_hw.c:7306]: (error) Uninitialized variable: phy_data
+[linux-v2.6.26-rc9/drivers/net/e1000/e1000_hw.c:7315]: (error) Uninitialized variable: phy_data
+[linux-v2.6.26-rc9/drivers/net/e1000/e1000_hw.c:7376]: (error) Uninitialized variable: phy_data
+[linux-v2.6.26-rc9/drivers/net/e1000/e1000_hw.c:7417]: (error) Uninitialized variable: phy_data
+[linux-v2.6.26-rc9/drivers/net/enc28j60.c:791]: (warning) Using 'sizeof' on array given as function argument returns size of a pointer.
+[linux-v2.6.26-rc9/drivers/net/fec.c:1601]: (error) Possible null pointer dereference: iap
+[linux-v2.6.26-rc9/drivers/net/fec.c:1311]: (error) Possible null pointer dereference: iap
+[linux-v2.6.26-rc9/drivers/net/fec.c:1480]: (error) Possible null pointer dereference: iap
+[linux-v2.6.26-rc9/drivers/net/fec.c:1740]: (error) Possible null pointer dereference: iap
+[linux-v2.6.26-rc9/drivers/net/irda/irda-usb.c:1087]: (error) Buffer is accessed out of bounds.
+[linux-v2.6.26-rc9/drivers/net/netconsole.c:297]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/drivers/net/netconsole.c:303]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/drivers/net/netxen/netxen_nic_init.c:801]: (error) Memory leak: buf
+[linux-v2.6.26-rc9/drivers/net/pasemi_mac.c:1851]: (error) syntax error
+[linux-v2.6.26-rc9/drivers/net/sun3_82586.c:986]: (error) Array 'p.xmit_cmds[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/sunlance.c:345]: (error) Array 'ib.btx_ring[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/sunlance.c:346]: (error) Array 'ib.btx_ring[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/sunlance.c:347]: (error) Array 'ib.btx_ring[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/sunlance.c:348]: (error) Array 'ib.btx_ring[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/sunlance.c:349]: (error) Array 'ib.btx_ring[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:798]: (error) Uninitialized variable: mii_reg
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:702]: (error) Uninitialized variable: __mask
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:828]: (error) Uninitialized variable: mii_reg
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:1273]: (error) Uninitialized variable: __mask
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:1303]: (error) Uninitialized variable: __mask
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:1309]: (error) Uninitialized variable: __mask
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:1312]: (error) Uninitialized variable: __mask
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:1786]: (error) Uninitialized variable: val
+[linux-v2.6.26-rc9/drivers/net/smc91x.c:1852]: (error) Uninitialized variable: __v
+[linux-v2.6.26-rc9/drivers/net/tokenring/proteon.c:167]: (error) Buffer is accessed out of bounds: cardname
+[linux-v2.6.26-rc9/drivers/net/tulip/de4x5.c:5093]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/tulip/de4x5.c:5094]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/tulip/de4x5.c:5095]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/tulip/de4x5.c:5096]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/tulip/de4x5.c:5097]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/wireless/ath5k/debug.c:471]: (error) Buffer is accessed out of bounds: bname
+[linux-v2.6.26-rc9/drivers/net/wireless/ath5k/debug.c:474]: (error) Buffer is accessed out of bounds: bname
+[linux-v2.6.26-rc9/drivers/net/wireless/airo.c:7551]: (error) syntax error
+[linux-v2.6.26-rc9/drivers/net/wireless/hostap/hostap_ap.c:3240]: (error) Memory leak: sta
+[linux-v2.6.26-rc9/drivers/net/wireless/hostap/hostap_hw.c:2349]: (error) Memory leak: payload
+[linux-v2.6.26-rc9/drivers/net/wireless/ipw2200.c:2663]: (error) Array 'priv.eeprom[256]' accessed at index 256, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/wireless/ipw2200.c:10597]: (error) Array 'p.eeprom[256]' accessed at index 256, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/wireless/orinoco.c:1984]: (error) Uninitialized variable: mclist
+[linux-v2.6.26-rc9/drivers/net/wireless/rndis_wlan.c:1141]: (error) Array 'rates_80211g[8]' accessed at index 31, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/net/wireless/wavelan.c:1828]: (error) Uninitialized variable: psa
+[linux-v2.6.26-rc9/drivers/net/wireless/wavelan_cs.c:1897]: (error) Uninitialized variable: psa
+[linux-v2.6.26-rc9/drivers/pci/pcie/aer/aerdrv.c:234]: (error) Memory leak: rpc
+[linux-v2.6.26-rc9/drivers/pcmcia/ds.c:1276]: (error) Possible null pointer dereference: p_drv
+[linux-v2.6.26-rc9/drivers/pcmcia/ds.c:1322]: (error) Possible null pointer dereference: p_drv
+[linux-v2.6.26-rc9/drivers/pcmcia/rsrc_nonstatic.c:333]: (error) Uninitialized variable: info1
+[linux-v2.6.26-rc9/drivers/pcmcia/rsrc_nonstatic.c:333]: (error) Uninitialized variable: info2
+[linux-v2.6.26-rc9/drivers/pnp/card.c:176]: (error) Memory leak: dev_id
+[linux-v2.6.26-rc9/drivers/rapidio/rio-scan.c:432]: (error) Uninitialized variable: result
+[linux-v2.6.26-rc9/drivers/s390/cio/css.c:237]: (error) Possible null pointer dereference: sch
+[linux-v2.6.26-rc9/drivers/s390/cio/css.c:238]: (error) Possible null pointer dereference: sch
+[linux-v2.6.26-rc9/drivers/s390/cio/css.c:239]: (error) Possible null pointer dereference: sch
+[linux-v2.6.26-rc9/drivers/s390/cio/css.c:240]: (error) Possible null pointer dereference: sch
+[linux-v2.6.26-rc9/drivers/s390/kvm/kvm_virtio.c:269]: (error) Memory leak: kdev
+[linux-v2.6.26-rc9/drivers/s390/net/claw.c:345]: (error) Memory leak: privptr
+[linux-v2.6.26-rc9/drivers/s390/net/ctcm_sysfs.c:43]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/ctcm_sysfs.c:146]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/lcs.c:1943]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/lcs.c:1988]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/netiucv.c:545]: (warning) Using 'sizeof' on array given as function argument returns size of a pointer.
+[linux-v2.6.26-rc9/drivers/s390/net/smsgiucv.c:58]: (warning) Using 'sizeof' on array given as function argument returns size of a pointer.
+[linux-v2.6.26-rc9/drivers/s390/net/qeth_l3_main.c:64]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/qeth_l3_main.c:64]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/qeth_l3_main.c:64]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/s390/net/qeth_l3_main.c:64]: (warning) %u in format string (no. 4) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/drivers/sbus/char/riowatchdog.c:250]: (error) Possible null pointer dereference: edev
+[linux-v2.6.26-rc9/drivers/scsi/BusLogic.c:2086]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.26-rc9/drivers/scsi/aacraid/rx.c:484]: (error) Uninitialized variable: var
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13578]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13581]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13582]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13583]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13584]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13585]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13586]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13587]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13588]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13589]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13590]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13591]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13593]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13595]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13597]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13599]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13600]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13604]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13605]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13606]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13608]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13610]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13611]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13612]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13613]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13614]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13615]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13616]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13617]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13618]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13619]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13621]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13623]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13625]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13627]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13632]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13633]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13634]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13636]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13638]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13639]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13640]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13641]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13642]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13643]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13644]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13645]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13646]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13647]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13649]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13651]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13653]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13655]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13695]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13698]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13759]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13761]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13763]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13765]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.26-rc9/drivers/scsi/advansys.c:13523]: (error) Uninitialized variable: ret
+[linux-v2.6.26-rc9/drivers/scsi/aic7xxx/aic79xx_core.c:6842]: (error) Memory leak: hscb_map
+[linux-v2.6.26-rc9/drivers/scsi/aic7xxx/aic79xx_core.c:6875]: (error) Memory leak: sg_map
+[linux-v2.6.26-rc9/drivers/scsi/aic7xxx/aic79xx_core.c:6912]: (error) Memory leak: sense_map
+[linux-v2.6.26-rc9/drivers/scsi/aic7xxx/aic7xxx_core.c:4991]: (error) Memory leak: sg_map
+[linux-v2.6.26-rc9/drivers/scsi/aic7xxx/aicasm/aicasm_symbol.c:646]: (error) Possible null pointer dereference: tab_str
+[linux-v2.6.26-rc9/drivers/scsi/aic7xxx/aicasm/aicasm_symbol.c:646]: (error) Possible null pointer dereference: tab_str2
+[linux-v2.6.26-rc9/drivers/scsi/dpt_i2o.c:2619] -> [linux-v2.6.26-rc9/drivers/scsi/dpt_i2o.c:2644]: (warning) Array 'pHba.channel[5]' accessed at index 5, which is out of bounds. Otherwise condition 'bus_no>=5' is redundant.
+[linux-v2.6.26-rc9/drivers/scsi/eata_pio.c:961]: (error) Array 'reg_IRQ[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/scsi/gdth_proc.c:199]: (error) Undefined behavior: Variable 'hrec' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/drivers/scsi/ipr.c:7352]: (error) Buffer is accessed out of bounds.
+[linux-v2.6.26-rc9/drivers/scsi/libsas/sas_scsi_host.c:459]: (error) Possible null pointer dereference: exphy
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_els.c:2194]: (error) Possible null pointer dereference: buf_ptr
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_init.c:632]: (error) Possible null pointer dereference: buf_ptr
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_sli.c:3406]: (error) Possible null pointer dereference: iocb
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_sli.c:3454]: (error) Possible null pointer dereference: iocb
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_sli.c:3472]: (error) Possible null pointer dereference: buf_ptr
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_sli.c:3496]: (error) Possible null pointer dereference: pmb
+[linux-v2.6.26-rc9/drivers/scsi/lpfc/lpfc_sli.c:3497]: (error) Possible null pointer dereference: pmb
+[linux-v2.6.26-rc9/drivers/scsi/pcmcia/nsp_cs.c:301]: (error) Uninitialized struct member: tmp_sync.SyncRegister
+[linux-v2.6.26-rc9/drivers/scsi/pcmcia/nsp_cs.c:301]: (error) Uninitialized struct member: tmp_sync.AckWidth
+[linux-v2.6.26-rc9/drivers/scsi/qla4xxx/ql4_os.c:210]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/drivers/scsi/st.c:250]: (error) Possible null pointer dereference: STp
+[linux-v2.6.26-rc9/drivers/scsi/st.c:253]: (error) Possible null pointer dereference: STp
+[linux-v2.6.26-rc9/drivers/serial/68360serial.c:2249]: (error) Uninitialized variable: up
+[linux-v2.6.26-rc9/drivers/serial/mcfserial.c:1832]: (error) Uninitialized variable: clk
+[linux-v2.6.26-rc9/drivers/serial/ucc_uart.c:1279]: (error) Memory leak: qe_port
+[linux-v2.6.26-rc9/drivers/usb/atm/cxacru.c:1022]: (error) Uninitialized variable: bp
+[linux-v2.6.26-rc9/drivers/usb/atm/usbatm.c:1397]: (error) Undefined behavior: Variable 'buffer' is used as parameter and destination in s[n]printf().
+[linux-v2.6.26-rc9/drivers/usb/core/config.c:230]: (error) Possible null pointer dereference: intfc
+[linux-v2.6.26-rc9/drivers/usb/core/config.c:231]: (error) Possible null pointer dereference: intfc
+[linux-v2.6.26-rc9/drivers/usb/gadget/dummy_hcd.c:257]: (error) Uninitialized variable: ep
+[linux-v2.6.26-rc9/drivers/usb/gadget/file_storage.c:3529]: (error) Possible null pointer dereference: inode
+[linux-v2.6.26-rc9/drivers/usb/gadget/fsl_usb2_udc.c:748]: (error) Possible null pointer dereference: last_dtd
+[linux-v2.6.26-rc9/drivers/usb/gadget/fsl_usb2_udc.c:749]: (error) Possible null pointer dereference: last_dtd
+[linux-v2.6.26-rc9/drivers/usb/gadget/omap_udc.c:1404]: (error) Uninitialized variable: ep
+[linux-v2.6.26-rc9/drivers/usb/gadget/pxa27x_udc.c:2041]: (error) Array 'udc.pxa_ep[15]' accessed at index 16, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/usb/gadget/rndis.c:841]: (error) Memory leak: r
+[linux-v2.6.26-rc9/drivers/usb/gadget/rndis.c:949]: (error) Memory leak: r
+[linux-v2.6.26-rc9/drivers/usb/gadget/rndis.c:975]: (error) Memory leak: r
+[linux-v2.6.26-rc9/drivers/usb/gadget/rndis.c:1006]: (error) Memory leak: r
+[linux-v2.6.26-rc9/drivers/usb/gadget/pxa2xx_udc.c:1799]: (error) Array 'dev.ep[3]' accessed at index 15, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/usb/host/r8a66597-hcd.c:980]: (error) Array 'r8a66597.root_hub[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/usb/host/r8a66597-hcd.c:982]: (error) Array 'r8a66597.root_hub[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/usb/host/r8a66597-hcd.c:983]: (error) Array 'r8a66597.root_hub[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/usb/host/r8a66597-hcd.c:1543]: (error) Array 'r8a66597.root_hub[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1063]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1064]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1065]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1066]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1067]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1068]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/misc/auerswald.c:1069]: (error) Possible null pointer dereference: bp
+[linux-v2.6.26-rc9/drivers/usb/serial/empeg.c:226]: (error) Possible null pointer dereference: urb
+[linux-v2.6.26-rc9/drivers/usb/serial/kl5kusb105.c:526]: (error) Possible null pointer dereference: urb
+[linux-v2.6.26-rc9/drivers/usb/serial/mos7720.c:687]: (error) Possible null pointer dereference: urb
+[linux-v2.6.26-rc9/drivers/usb/serial/mos7840.c:1519]: (error) Possible null pointer dereference: urb
+[linux-v2.6.26-rc9/drivers/usb/serial/mos7840.c:1451]: (error) Uninitialized variable: mos7840_port
+[linux-v2.6.26-rc9/drivers/usb/serial/mos7840.c:1454]: (error) Uninitialized variable: mos7840_port
+[linux-v2.6.26-rc9/drivers/usb/serial/mos7840.c:1478]: (error) Uninitialized variable: mos7840_port
+[linux-v2.6.26-rc9/drivers/usb/serial/whiteheat.c:411]: (error) Uninitialized variable: info
+[linux-v2.6.26-rc9/drivers/video/aty/mach64_ct.c:177]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.26-rc9/drivers/video/aty/mach64_ct.c:180]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.26-rc9/drivers/video/cirrusfb.c:2498] -> [linux-v2.6.26-rc9/drivers/video/cirrusfb.c:2532]: (warning) Array 'cirrusfb_zorro_table2[5]' accessed at index 5, which is out of bounds. Otherwise condition 'btype==5' is redundant.
+[linux-v2.6.26-rc9/drivers/video/console/newport_con.c:221]: (error) Array 'linetable[128]' accessed at index 254, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/video/console/newport_con.c:237]: (error) Array 'linetable[128]' accessed at index 255, which is out of bounds.
+[linux-v2.6.26-rc9/drivers/video/cyber2000fb.c:1751]: (error) Uninitialized variable: err
+[linux-v2.6.26-rc9/drivers/video/omap/dispc.c:1184] -> [linux-v2.6.26-rc9/drivers/video/omap/dispc.c:1186]: (warning) Array 'dispc.res_map[2]' accessed at index 2, which is out of bounds. Otherwise condition 'mtype>=2' is redundant.
+[linux-v2.6.26-rc9/drivers/video/omap/omapfb_main.c:1349]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.26-rc9/drivers/video/omap/rfbi.c:231]: (error) Division by zero.
+[linux-v2.6.26-rc9/drivers/video/pnx4008/sdum.c:143]: (error) Uninitialized struct member: chan.dum_ch_stat
+[linux-v2.6.26-rc9/drivers/video/sis/init301.c:5819]: (error) Division by zero.
+[linux-v2.6.26-rc9/drivers/video/sm501fb.c:1483]: (error) Possible null pointer dereference: pd
+[linux-v2.6.26-rc9/drivers/w1/masters/ds2490.c:256]: (error) Uninitialized variable: buf
+[linux-v2.6.26-rc9/drivers/xen/xenbus/xenbus_probe.c:215]: (error) Uninitialized variable: bus
+[linux-v2.6.26-rc9/fs/adfs/dir.c:78]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v2.6.26-rc9/fs/adfs/dir.c:193]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v2.6.26-rc9/fs/9p/vfs_inode.c:851]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/9p/vfs_inode.c:851]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/adfs/dir.c:109]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v2.6.26-rc9/fs/afs/proc.c:740]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/fs/cifs/cifs_dfs_ref.c:213]: (error) Memory leak: devname
+[linux-v2.6.26-rc9/fs/cifs/connect.c:2009]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/fs/gfs2/locking/dlm/lock.c:158]: (error) Buffer is accessed out of bounds.
+[linux-v2.6.26-rc9/fs/gfs2/locking/dlm/mount.c:89]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/gfs2/locking/dlm/mount.c:97]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/gfs2/locking/dlm/mount.c:113]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/hostfs/hostfs_kern.c:722]: (error) Memory leak: file
+[linux-v2.6.26-rc9/fs/jfs/jfs_txnmgr.c:1933]: (error) Uninitialized variable: pxd
+[linux-v2.6.26-rc9/fs/jfs/jfs_txnmgr.c:1933]: (error) Uninitialized struct member: pxd.len
+[linux-v2.6.26-rc9/fs/jfs/jfs_txnmgr.c:1933]: (error) Uninitialized struct member: pxd.addr1
+[linux-v2.6.26-rc9/fs/jfs/jfs_txnmgr.c:1933]: (error) Uninitialized struct member: pxd.addr2
+[linux-v2.6.26-rc9/fs/locks.c:247]: (error) Possible null pointer dereference: new
+[linux-v2.6.26-rc9/fs/locks.c:248]: (error) Possible null pointer dereference: new
+[linux-v2.6.26-rc9/fs/locks.c:249]: (error) Possible null pointer dereference: new
+[linux-v2.6.26-rc9/fs/locks.c:559]: (error) Possible null pointer dereference: fl
+[linux-v2.6.26-rc9/fs/locks.c:562]: (error) Possible null pointer dereference: fl
+[linux-v2.6.26-rc9/fs/nfs/nfsroot.c:333]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/fs/nfsd/nfsctl.c:329]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/nfsd/nfsctl.c:329]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/nfsd/nfsctl.c:329]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/nfsd/nfsctl.c:329]: (warning) %u in format string (no. 4) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/fs/nfsd/nfssvc.c:184]: (error) Array 'nfsd_version[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.26-rc9/fs/nfsd/nfssvc.c:184]: (error) Array 'nfsd_version[2]' accessed at index 2, which is out of bounds.
+[linux-v2.6.26-rc9/fs/nfsd/vfs.c:508]: (error) Memory leak: buf
+[linux-v2.6.26-rc9/fs/ntfs/compress.c:227]: (error) Uninitialized variable: completed_pages
+[linux-v2.6.26-rc9/fs/ocfs2/cluster/nodemanager.c:253]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/fs/ocfs2/dlm/dlmrecovery.c:1789]: (error) Possible null pointer dereference: lock
+[linux-v2.6.26-rc9/fs/proc/base.c:576]: (error) Possible null pointer dereference: fs
+[linux-v2.6.26-rc9/fs/proc/base.c:594]: (error) Possible null pointer dereference: ns
+[linux-v2.6.26-rc9/fs/reiserfs/prints.c:565]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/fs/xfs/xfs_acl.c:618]: (error) Uninitialized variable: newacl
+[linux-v2.6.26-rc9/fs/xfs/xfs_acl.c:622]: (error) Uninitialized variable: newacl
+[linux-v2.6.26-rc9/fs/xfs/xfs_alloc_btree.c:102]: (error) Array 'cur.bc_ptrs[8]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1863]: (error) Uninitialized variable: left
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1870]: (error) Uninitialized variable: left
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1863]: (error) Uninitialized struct member: left.br_startoff
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1863]: (error) Uninitialized struct member: left.br_blockcount
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1870]: (error) Uninitialized struct member: left.br_blockcount
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1870]: (error) Uninitialized variable: right
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1870]: (error) Uninitialized struct member: right.br_startoff
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:1870]: (error) Uninitialized struct member: right.br_blockcount
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2055]: (error) Uninitialized variable: left
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized variable: left
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2055]: (error) Uninitialized struct member: left.br_startoff
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2055]: (error) Uninitialized struct member: left.br_startblock
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2055]: (error) Uninitialized struct member: left.br_blockcount
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized struct member: left.br_blockcount
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2055]: (error) Uninitialized struct member: left.br_state
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized variable: right
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized struct member: right.br_startoff
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized struct member: right.br_startblock
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized struct member: right.br_blockcount
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap.c:2065]: (error) Uninitialized struct member: right.br_state
+[linux-v2.6.26-rc9/fs/xfs/xfs_bmap_btree.c:352]: (error) Array 'cur.bc_ptrs[8]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/fs/xfs/xfs_dir2_block.c:1136]: (error) Array 'dep.name[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/fs/xfs/xfs_dir2_sf.c:115]: (error) Array 'dep.name[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/fs/xfs/xfs_dir2_sf.c:235]: (error) Array 'dep.name[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.26-rc9/fs/xfs/xfs_ialloc_btree.c:100]: (error) Array 'cur.bc_ptrs[8]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.26-rc9/kernel/compat.c:50]: (error) Uninitialized variable: rmt
+[linux-v2.6.26-rc9/kernel/compat.c:59]: (error) Uninitialized variable: rmt
+[linux-v2.6.26-rc9/kernel/compat.c:82]: (error) Uninitialized variable: rmt
+[linux-v2.6.26-rc9/kernel/compat.c:93]: (error) Uninitialized variable: rmt
+[linux-v2.6.26-rc9/kernel/compat.c:304]: (error) Uninitialized variable: r
+[linux-v2.6.26-rc9/kernel/compat.c:352]: (error) Uninitialized variable: r
+[linux-v2.6.26-rc9/kernel/compat.c:358]: (error) Uninitialized variable: r
+[linux-v2.6.26-rc9/kernel/compat.c:380]: (error) Uninitialized variable: r
+[linux-v2.6.26-rc9/kernel/compat.c:384]: (error) Uninitialized variable: r
+[linux-v2.6.26-rc9/kernel/compat.c:406]: (error) Uninitialized variable: ru
+[linux-v2.6.26-rc9/kernel/compat.c:413]: (error) Uninitialized variable: ru
+[linux-v2.6.26-rc9/kernel/compat.c:529]: (error) Uninitialized variable: oldts
+[linux-v2.6.26-rc9/kernel/compat.c:531]: (error) Uninitialized variable: oldts
+[linux-v2.6.26-rc9/kernel/compat.c:546]: (error) Uninitialized variable: ts
+[linux-v2.6.26-rc9/kernel/compat.c:548]: (error) Uninitialized variable: ts
+[linux-v2.6.26-rc9/kernel/compat.c:580]: (error) Uninitialized variable: ts
+[linux-v2.6.26-rc9/kernel/compat.c:582]: (error) Uninitialized variable: ts
+[linux-v2.6.26-rc9/kernel/compat.c:597]: (error) Uninitialized variable: ts
+[linux-v2.6.26-rc9/kernel/compat.c:599]: (error) Uninitialized variable: ts
+[linux-v2.6.26-rc9/kernel/compat.c:611]: (error) Uninitialized variable: tu
+[linux-v2.6.26-rc9/kernel/compat.c:618]: (error) Uninitialized variable: tu
+[linux-v2.6.26-rc9/kernel/compat.c:644]: (error) Uninitialized variable: out
+[linux-v2.6.26-rc9/kernel/compat.c:648]: (error) Uninitialized variable: out
+[linux-v2.6.26-rc9/kernel/marker.c:175]: (error) va_list 'args' used before va_start() was called.
+[linux-v2.6.26-rc9/kernel/marker.c:190]: (error) va_list 'args' used before va_start() was called.
+[linux-v2.6.26-rc9/kernel/power/disk.c:683]: (error) Array 'hibernation_modes[5]' accessed at index 5, which is out of bounds.
+[linux-v2.6.26-rc9/kernel/power/disk.c:721]: (error) Array 'hibernation_modes[5]' accessed at index 5, which is out of bounds.
+[linux-v2.6.26-rc9/kernel/power/disk.c:722]: (error) Array 'hibernation_modes[5]' accessed at index 5, which is out of bounds.
+[linux-v2.6.26-rc9/kernel/sched.c:3137]: (error) Possible null pointer dereference: busiest
+[linux-v2.6.26-rc9/kernel/sched.c:3138]: (error) Possible null pointer dereference: this
+[linux-v2.6.26-rc9/kernel/sched.c:3105]: (error) Division by zero.
+[linux-v2.6.26-rc9/mm/mlock.c:184]: (error) Possible null pointer dereference: prev
+[linux-v2.6.26-rc9/mm/slab.c:2707]: (error) Uninitialized variable: slabp
+[linux-v2.6.26-rc9/net/9p/trans_fd.c:912]: (error) Memory leak: req
+[linux-v2.6.26-rc9/net/ax25/ax25_dev.c:37]: (error) Uninitialized variable: ax25_dev
+[linux-v2.6.26-rc9/net/ax25/ax25_dev.c:147]: (error) Uninitialized variable: ax25_dev
+[linux-v2.6.26-rc9/net/core/dev.c:4066]: (error) Memory leak: p
+[linux-v2.6.26-rc9/net/core/skbuff.c:2282]: (error) Possible null pointer dereference: tail
+[linux-v2.6.26-rc9/net/ieee80211/ieee80211_module.c:251]: (warning) %li in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.26-rc9/net/ipv4/inetpeer.c:290]: (error) Uninitialized variable: stackptr
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_ctl.c:2183]: (error) sprintf format string requires 4 parameters but only 2 are given.
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_ftp.c:203]: (error) sprintf format string requires 6 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_proto.c:169]: (error) sprintf format string requires 9 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_proto.c:178]: (error) sprintf format string requires 9 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_proto.c:183]: (error) sprintf format string requires 11 parameters but only 5 are given.
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_proto_ah.c:140]: (error) sprintf format string requires 9 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/ipv4/ipvs/ip_vs_proto_esp.c:139]: (error) sprintf format string requires 9 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/ipt_CLUSTERIP.c:171]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/arp_tables.c:886]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 882.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/arp_tables.c:888]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 882.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/arp_tables.c:890]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 882.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/arp_tables.c:891]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 882.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/ip_tables.c:1130]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1126.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/ip_tables.c:1132]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1126.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/ip_tables.c:1134]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1126.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/ip_tables.c:1135]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1126.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_ftp.c:41]: (error) sprintf format string requires 6 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_ftp.c:62]: (error) sprintf format string requires 5 parameters but only 2 are given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_sip.c:77]: (error) sprintf format string requires 5 parameters but only 2 are given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_sip.c:156]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_sip.c:170]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_sip.c:282]: (error) sprintf format string requires 5 parameters but only 2 are given.
+[linux-v2.6.26-rc9/net/ipv4/netfilter/nf_nat_sip.c:383]: (error) sprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/net/ipv6/addrconf.c:789]: (error) Possible null pointer dereference: rt
+[linux-v2.6.26-rc9/net/ipv6/netfilter/ip6_tables.c:1156]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1152.
+[linux-v2.6.26-rc9/net/ipv6/netfilter/ip6_tables.c:1158]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1152.
+[linux-v2.6.26-rc9/net/ipv6/netfilter/ip6_tables.c:1160]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1152.
+[linux-v2.6.26-rc9/net/ipv6/netfilter/ip6_tables.c:1161]: (error) Dead pointer usage. Pointer 'private' is dead if it has been assigned '&tmp' at line 1152.
+[linux-v2.6.26-rc9/net/ipv6/netfilter/nf_conntrack_reasm.c:467]: (error) Uninitialized variable: head
+[linux-v2.6.26-rc9/net/ipv6/reassembly.c:519]: (error) Uninitialized variable: head
+[linux-v2.6.26-rc9/net/mac80211/debugfs_sta.c:233]: (error) Buffer is accessed out of bounds: state
+[linux-v2.6.26-rc9/net/mac80211/tx.c:636]: (error) Uninitialized struct member: rsel.nonerp
+[linux-v2.6.26-rc9/net/mac80211/tx.c:637]: (error) Uninitialized struct member: rsel.nonerp
+[linux-v2.6.26-rc9/net/sctp/sm_make_chunk.c:1325]: (error) Possible null pointer dereference: data
+[linux-v2.6.26-rc9/net/sunrpc/svcsock.c:253]: (error) sprintf format string requires 6 parameters but only 3 are given.
+[linux-v2.6.26-rc9/net/sunrpc/xprtrdma/transport.c:191]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/net/sunrpc/xprtsock.c:311]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.26-rc9/scripts/genksyms/genksyms.c:564]: (error) Resource leak: dumpfile
+[linux-v2.6.26-rc9/security/selinux/avc.c:163]: (error) Possible null pointer dereference: common_pts
+[linux-v2.6.26-rc9/security/selinux/selinuxfs.c:1159]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.26-rc9/sound/core/pcm_lib.c:876]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.26-rc9/sound/core/seq/seq_dummy.c:222]: (error) Memory leak: rec1
+[linux-v2.6.26-rc9/sound/core/seq/seq_dummy.c:230]: (error) Memory leak: rec2
+[linux-v2.6.26-rc9/sound/oss/aedsp16.c:969]: (error) Buffer is accessed out of bounds.
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:51]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:57]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:61]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:66]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:70]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:74]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/midi_synth.c:79]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/mpu401.c:1670]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/mpu401.c:1681]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/mpu401.c:1691]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/mpu401.c:1699]: (error) Uninitialized variable: len
+[linux-v2.6.26-rc9/sound/oss/sequencer.c:1639]: (error) Array 'semitone_tuning[24]' accessed at index 99, which is out of bounds.
+[linux-v2.6.26-rc9/sound/pci/pcxhr/pcxhr.c:1231]: (error) Memory leak: mgr
+[linux-v2.6.26-rc9/sound/pci/pcxhr/pcxhr.c:534]: (error) Uninitialized struct member: pipe.first_audio
+[linux-v2.6.26-rc9/sound/sparc/cs4231.c:273]: (error) syntax error
+[linux-v2.6.26-rc9/sound/synth/emux/soundfont.c:1019]: (error) Memory leak: zone

@@ -1,0 +1,886 @@
+[linux-v3.18-rc1/Documentation/connector/ucon.c:250]: (error) Resource leak: out
+[linux-v3.18-rc1/arch/alpha/kernel/osf_sys.c:1180]: (error) Uninitialized variable: r
+[linux-v3.18-rc1/arch/arm/mach-davinci/board-da850-evm.c:456]: (error) Array 'da850_evm_ui_exp[11]' accessed at index 15, which is out of bounds.
+[linux-v3.18-rc1/arch/arm/mach-davinci/board-da850-evm.c:453]: (error) Array 'da850_evm_ui_keys[1]' accessed at index 7, which is out of bounds.
+[linux-v3.18-rc1/arch/arm/mach-davinci/board-da850-evm.c:636]: (error) Array 'da850_evm_bb_keys[2]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/arch/arm/mach-omap2/prm3xxx.c:319]: (error) Uninitialized variable: en_uart4_mask
+[linux-v3.18-rc1/arch/arm/mach-omap2/prm3xxx.c:332]: (error) Uninitialized variable: grpsel_uart4_mask
+[linux-v3.18-rc1/arch/arm/mach-tegra/sleep.h:109]: (error) syntax error
+[linux-v3.18-rc1/arch/arm64/kvm/sys_regs.c:1495]: (error) Uninitialized variable: clidr
+[linux-v3.18-rc1/arch/arm64/kvm/sys_regs.c:1496]: (error) Uninitialized struct member: clidr.val
+[linux-v3.18-rc1/arch/blackfin/kernel/trace.c:853]: (error) Uninitialized variable: in_atomic
+[linux-v3.18-rc1/arch/cris/arch-v32/kernel/irq.c:383] -> [linux-v3.18-rc1/arch/cris/arch-v32/kernel/irq.c:387]: (warning) Array 'masked[1]' accessed at index 1, which is out of bounds. Otherwise condition 'i==1' is redundant.
+[linux-v3.18-rc1/arch/cris/arch-v32/kernel/irq.c:398] -> [linux-v3.18-rc1/arch/cris/arch-v32/kernel/irq.c:398]: (warning) Array 'masked[1]' accessed at index 1, which is out of bounds. Otherwise condition 'i==1' is redundant.
+[linux-v3.18-rc1/arch/cris/arch-v32/kernel/irq.c:399] -> [linux-v3.18-rc1/arch/cris/arch-v32/kernel/irq.c:398]: (warning) Array 'masked[1]' accessed at index 1, which is out of bounds. Otherwise condition 'i==1' is redundant.
+[linux-v3.18-rc1/arch/cris/arch-v32/drivers/cryptocop.c:1848]: (error) Memory leak: pj
+[linux-v3.18-rc1/arch/cris/arch-v32/drivers/sync_serial.c:286]: (error) Array 'ports[1]' accessed at index 1, which is out of bounds.
+[linux-v3.18-rc1/arch/frv/kernel/time.c:92]: (error) Uninitialized variable: year
+[linux-v3.18-rc1/arch/frv/kernel/time.c:92]: (error) Uninitialized variable: mon
+[linux-v3.18-rc1/arch/frv/kernel/time.c:92]: (error) Uninitialized variable: day
+[linux-v3.18-rc1/arch/frv/kernel/time.c:92]: (error) Uninitialized variable: hour
+[linux-v3.18-rc1/arch/frv/kernel/time.c:92]: (error) Uninitialized variable: min
+[linux-v3.18-rc1/arch/frv/kernel/time.c:92]: (error) Uninitialized variable: sec
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:649]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:956]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:982]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:1003]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:1181]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:1504]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/hp/common/sba_iommu.c:1143]: (error) Possible null pointer dereference: ioc
+[linux-v3.18-rc1/arch/ia64/kernel/palinfo.c:133]: (error) Array 'units[5]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/arch/ia64/sn/kernel/sn2/sn_hwperf.c:280]: (error) Possible null pointer dereference: nodeobj
+[linux-v3.18-rc1/arch/ia64/sn/pci/tioce_provider.c:1042]: (error) Memory leak: tioce_kern
+[linux-v3.18-rc1/arch/m32r/kernel/ptrace.c:116]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/m68k/mm/kmap.c:223]: (error) Memory leak: area
+[linux-v3.18-rc1/arch/mips/kernel/signal.c:194]: (error) Uninitialized variable: used_math
+[linux-v3.18-rc1/arch/mips/kernel/signal32.c:189]: (error) Uninitialized variable: used_math
+[linux-v3.18-rc1/arch/mips/ralink/prom.c:64]: (error) Uninitialized variable: argc
+[linux-v3.18-rc1/arch/mn10300/boot/tools/build.c:54]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v3.18-rc1/arch/mn10300/kernel/ptrace.c:268]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/mn10300/kernel/ptrace.c:270]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/mn10300/kernel/ptrace.c:283]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/mn10300/kernel/ptrace.c:285]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/powerpc/kernel/prom_init.c:393]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v3.18-rc1/arch/powerpc/perf/power4-pmu.c:506]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/arch/powerpc/perf/ppc970-pmu.c:380]: (error) Array 'pmcsel[8]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/arch/powerpc/platforms/powermac/low_i2c.c:1387]: (error) Array 'inst.buffer[64]' accessed at index 9998, which is out of bounds.
+[linux-v3.18-rc1/arch/powerpc/platforms/powermac/bootx_init.c:87]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v3.18-rc1/arch/powerpc/platforms/powernv/opal-dump.c:390]: (error) Memory leak: dump
+[linux-v3.18-rc1/arch/s390/kernel/ipl.c:763]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v3.18-rc1/arch/s390/kernel/ipl.c:765]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v3.18-rc1/arch/s390/kernel/ipl.c:1357]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v3.18-rc1/arch/s390/kernel/ipl.c:1359]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:210]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:215]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:221]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:225]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:238]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:244]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:251]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:255]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:257]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:260]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:264]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:109]: (error) Memory leak: new.control
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:232]: (error) Possible null pointer dereference: dummy
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:576]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:581]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:586]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:594]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:598]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:601]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:607]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:614]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:618]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:621]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kernel/ptrace.c:625]: (error) Possible null pointer dereference: dummy32
+[linux-v3.18-rc1/arch/s390/kvm/gaccess.c:409]: (error) Uninitialized variable: rfte
+[linux-v3.18-rc1/arch/s390/kvm/gaccess.c:427]: (error) Uninitialized variable: rste
+[linux-v3.18-rc1/arch/s390/kvm/gaccess.c:445]: (error) Uninitialized variable: rtte
+[linux-v3.18-rc1/arch/s390/kvm/gaccess.c:472]: (error) Uninitialized variable: ste
+[linux-v3.18-rc1/arch/s390/kvm/gaccess.c:476]: (error) Uninitialized variable: ste
+[linux-v3.18-rc1/arch/sh/drivers/push-switch.c:27]: (error) syntax error
+[linux-v3.18-rc1/arch/sparc/kernel/starfire.c:106]: (error) Array 'p.imap_slots[32]' accessed at index 32, which is out of bounds.
+[linux-v3.18-rc1/arch/sparc/kernel/starfire.c:113]: (error) Array 'p.tregs[32]' accessed at index 32, which is out of bounds.
+[linux-v3.18-rc1/arch/um/drivers/net_user.c:258]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v3.18-rc1/arch/x86/boot/tools/build.c:137]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v3.18-rc1/arch/x86/crypto/sha-mb/sha1_mb.c:832]: (error) syntax error
+[linux-v3.18-rc1/arch/x86/kernel/jump_label.c:54]: (error) Buffer is accessed out of bounds: default_nop
+[linux-v3.18-rc1/arch/x86/kernel/jump_label.c:78]: (error) Buffer is accessed out of bounds: default_nop
+[linux-v3.18-rc1/arch/x86/kernel/jump_label.c:135]: (error) Buffer is accessed out of bounds: default_nop
+[linux-v3.18-rc1/arch/x86/kernel/machine_kexec_32.c:114]: (error) Possible null pointer dereference: pmd
+[linux-v3.18-rc1/arch/x86/kvm/x86.c:5766]: (error) Uninitialized variable: param
+[linux-v3.18-rc1/arch/x86/kvm/x86.c:5767]: (error) Uninitialized variable: param
+[linux-v3.18-rc1/arch/x86/kvm/x86.c:5768]: (error) Uninitialized variable: param
+[linux-v3.18-rc1/arch/x86/kvm/x86.c:5769]: (error) Uninitialized variable: param
+[linux-v3.18-rc1/arch/x86/math-emu/poly_2xm1.c:127]: (error) Uninitialized struct member: Denom.msw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_2xm1.c:73]: (error) Uninitialized struct member: argSignif.msw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_atan.c:92]: (error) Uninitialized variable: argSignif
+[linux-v3.18-rc1/arch/x86/math-emu/poly_l2.c:205]: (error) Uninitialized struct member: Numer.msw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_l2.c:194]: (error) Uninitialized variable: argSignif
+[linux-v3.18-rc1/arch/x86/math-emu/poly_l2.c:199]: (error) Uninitialized variable: argSignif
+[linux-v3.18-rc1/arch/x86/math-emu/poly_l2.c:218]: (error) Uninitialized struct member: argSignif.lsw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_l2.c:219]: (error) Uninitialized struct member: argSignif.midw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_sin.c:352]: (error) Uninitialized struct member: fix_up.msw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_l2.c:212]: (error) Uninitialized struct member: argSignif.msw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_tan.c:108]: (error) Uninitialized struct member: accum.lsw
+[linux-v3.18-rc1/arch/x86/math-emu/poly_tan.c:186]: (error) Uninitialized struct member: fix_up.msw
+[linux-v3.18-rc1/arch/x86/vdso/vdso2c.c:118]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v3.18-rc1/arch/xtensa/platforms/iss/network.c:109]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v3.18-rc1/block/bio.c:145]: (error) Possible null pointer dereference: bslab
+[linux-v3.18-rc1/drivers/ata/sata_fsl.c:337]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/ata/sata_fsl.c:337]: (warning) %d in format string (no. 2) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/ata/sata_fsl.c:378]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/block/rbd.c:1752]: (error) Possible null pointer dereference: rbd_dev
+[linux-v3.18-rc1/drivers/bus/arm-ccn.c:676]: (error) Array 'arm_ccn_pmu_events[51]' accessed at index 9998, which is out of bounds.
+[linux-v3.18-rc1/drivers/char/tile-srom.c:156]: (error) Uninitialized variable: dummy
+[linux-v3.18-rc1/drivers/clk/rockchip/clk.c:104]: (error) Memory leak: mux
+[linux-v3.18-rc1/drivers/clk/rockchip/clk.c:104]: (error) Memory leak: gate
+[linux-v3.18-rc1/drivers/clk/rockchip/clk.c:104]: (error) Memory leak: div
+[linux-v3.18-rc1/drivers/clk/rockchip/clk.c:152]: (error) Memory leak: gate
+[linux-v3.18-rc1/drivers/crypto/caam/caamhash.c:1182]: (error) Memory leak: edesc
+[linux-v3.18-rc1/drivers/crypto/caam/caamhash.c:824]: (error) Uninitialized variable: desc
+[linux-v3.18-rc1/drivers/crypto/nx/nx-842.c:1025]: (error) Possible null pointer dereference: node
+[linux-v3.18-rc1/drivers/dma/dmaengine.c:982]: (error) Array 'unmap_pool[1]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/drivers/dma/dmaengine.c:984]: (error) Array 'unmap_pool[1]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/drivers/dma/mmp_pdma.c:484]: (error) Possible null pointer dereference: prev
+[linux-v3.18-rc1/drivers/dma/mmp_pdma.c:654]: (error) Possible null pointer dereference: prev
+[linux-v3.18-rc1/drivers/edac/i7core_edac.c:1432]: (error) Memory leak: i7core_dev
+[linux-v3.18-rc1/drivers/edac/sb_edac.c:1511]: (error) Memory leak: sbridge_dev
+[linux-v3.18-rc1/drivers/gpu/drm/armada/armada_drv.c:97]: (error) Uninitialized variable: priv
+[linux-v3.18-rc1/drivers/gpu/drm/armada/armada_drv.c:112]: (error) Uninitialized variable: priv
+[linux-v3.18-rc1/drivers/gpu/drm/drm_ioc32.c:359]: (error) Uninitialized variable: s32
+[linux-v3.18-rc1/drivers/gpu/drm/gma500/mdfld_dsi_pkg_sender.c:219]: (error) Array 'dsi_errors[31]' accessed at index 31, which is out of bounds.
+[linux-v3.18-rc1/drivers/gpu/drm/gma500/oaktrail_crtc.c:175]: (error) Uninitialized struct member: clock.m1
+[linux-v3.18-rc1/drivers/gpu/drm/gma500/oaktrail_crtc.c:175]: (error) Uninitialized struct member: clock.m2
+[linux-v3.18-rc1/drivers/gpu/drm/gma500/oaktrail_crtc.c:175]: (error) Uninitialized struct member: clock.p2
+[linux-v3.18-rc1/drivers/gpu/drm/gma500/oaktrail_crtc.c:175]: (error) Uninitialized struct member: clock.dot
+[linux-v3.18-rc1/drivers/gpu/drm/gma500/oaktrail_crtc.c:175]: (error) Uninitialized struct member: clock.vco
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_dma.c:1539]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_dma.c:1542]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_debugfs.c:4220]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_debugfs.c:682]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_debugfs.c:769]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_debugfs.c:805]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_gem.c:1160]: (error) Possible null pointer dereference: ring
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:242]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:300]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3421]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3490]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3841]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3969]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4121]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4122]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4141]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4344]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4345]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4363]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:2064]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3800]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3883]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:3945]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4104]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4300]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4530]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/i915_irq.c:4576]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_display.c:13413]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_display.c:8940]: (error) Uninitialized struct member: clock.dot
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_display.c:9157]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_pm.c:5316]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_pm.c:2709]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_pm.c:5317]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/i915/intel_pm.c:6373]: (error) Uninitialized variable: pipe
+[linux-v3.18-rc1/drivers/gpu/drm/msm/mdp/mdp4/mdp4_lvds_pll.c:63]: (error) Array 'freqtbl[1]' accessed at index 1, which is out of bounds.
+[linux-v3.18-rc1/drivers/gpu/drm/nouveau/nouveau_fence.c:98]: (error) Uninitialized variable: fence
+[linux-v3.18-rc1/drivers/gpu/drm/nouveau/nouveau_fence.c:128]: (error) Uninitialized variable: fence
+[linux-v3.18-rc1/drivers/gpu/drm/nouveau/nouveau_sgdma.c:111]: (error) Memory leak: nvbe
+[linux-v3.18-rc1/drivers/gpu/drm/omapdrm/omap_dmm_tiler.c:186]: (error) Possible null pointer dereference: engine
+[linux-v3.18-rc1/drivers/gpu/drm/omapdrm/omap_dmm_tiler.c:189]: (error) Possible null pointer dereference: engine
+[linux-v3.18-rc1/drivers/gpu/drm/omapdrm/omap_dmm_tiler.c:190]: (error) Possible null pointer dereference: engine
+[linux-v3.18-rc1/drivers/gpu/drm/qxl/qxl_draw.c:352]: (error) Uninitialized variable: drawable
+[linux-v3.18-rc1/drivers/gpu/drm/radeon/radeon_atombios.c:2973]: (error) Uninitialized variable: args
+[linux-v3.18-rc1/drivers/gpu/drm/radeon/radeon_atombios.c:2982]: (error) Uninitialized variable: args
+[linux-v3.18-rc1/drivers/hid/hid-wiimote-debug.c:147]: (error) Array 'wiidebug_drmmap[13]' accessed at index 63, which is out of bounds.
+[linux-v3.18-rc1/drivers/i2c/i2c-core.c:1273]: (warning) %hi in format string (no. 1) requires 'short *' but the argument type is 'unsigned short *'.
+[linux-v3.18-rc1/drivers/iio/industrialio-core.c:213]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/iio/industrialio-core.c:213]: (warning) %i in format string (no. 2) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/infiniband/hw/cxgb3/iwch_provider.c:1138]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/infiniband/hw/cxgb3/iwch_provider.c:1140]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/infiniband/hw/cxgb3/iwch_provider.c:1142]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/infiniband/hw/cxgb4/cm.c:1882]: (error) Uninitialized variable: pdev
+[linux-v3.18-rc1/drivers/infiniband/hw/cxgb4/mem.c:536]: (error) Memory leak: page_list
+[linux-v3.18-rc1/drivers/input/keyboard/omap-keypad.c:206]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/input/tablet/wacom_serial4.c:199]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/input/tablet/wacom_serial4.c:199]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/input/tablet/wacom_serial4.c:271]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/input/tablet/wacom_serial4.c:271]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/input/touchscreen/ad7879-spi.c:37]: (error) Uninitialized variable: _rx_buf
+[linux-v3.18-rc1/drivers/input/touchscreen/atmel_mxt_ts.c:1247]: (error) Uninitialized variable: cfg_info
+[linux-v3.18-rc1/drivers/iommu/amd_iommu.c:1783] -> [linux-v3.18-rc1/drivers/iommu/amd_iommu.c:1785]: (warning) Array 'dom.aperture[32]' accessed at index 32, which is out of bounds. Otherwise condition 'i>=32' is redundant.
+[linux-v3.18-rc1/drivers/iommu/dmar.c:1319]: (error) Uninitialized variable: sts
+[linux-v3.18-rc1/drivers/iommu/intel_irq_remapping.c:444]: (error) Uninitialized variable: sts
+[linux-v3.18-rc1/drivers/iommu/intel-iommu.c:1162]: (error) Uninitialized variable: sts
+[linux-v3.18-rc1/drivers/iommu/intel-iommu.c:1180]: (error) Uninitialized variable: val
+[linux-v3.18-rc1/drivers/iommu/intel-iommu.c:1414]: (error) Uninitialized variable: sts
+[linux-v3.18-rc1/drivers/iommu/intel-iommu.c:1430]: (error) Uninitialized variable: sts
+[linux-v3.18-rc1/drivers/iommu/omap-iommu.c:672]: (error) Possible null pointer dereference: fn
+[linux-v3.18-rc1/drivers/isdn/gigaset/ev-layer.c:475]: (error) Array index -1 is out of bounds.
+[linux-v3.18-rc1/drivers/isdn/i4l/isdn_ttyfax.c:329]: (error) Uninitialized variable: c
+[linux-v3.18-rc1/drivers/isdn/icn/icn.c:1578]: (error) Memory leak: card
+[linux-v3.18-rc1/drivers/isdn/isdnloop/isdnloop.c:1499]: (error) Memory leak: card
+[linux-v3.18-rc1/drivers/lguest/lguest_device.c:470]: (error) Memory leak: ldev
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm121.c:540]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm121.c:553]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm121.c:557]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:294]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:295]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:296]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:297]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:300]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:301]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:302]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/macintosh/windfarm_pm81.c:305]: (error) Possible null pointer dereference: param
+[linux-v3.18-rc1/drivers/md/dm-thin-metadata.c:1011]: (error) Memory leak: td
+[linux-v3.18-rc1/drivers/md/dm-thin-metadata.c:1044]: (error) Memory leak: td
+[linux-v3.18-rc1/drivers/md/dm-thin-metadata.c:1126]: (error) Memory leak: td
+[linux-v3.18-rc1/drivers/media/i2c/ir-kbd-i2c.c:218]: (error) Uninitialized variable: key
+[linux-v3.18-rc1/drivers/media/i2c/ov9650.c:710]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/media/i2c/ov9650.c:711]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/media/platform/exynos4-is/fimc-capture.c:1224]: (error) Possible null pointer dereference: si
+[linux-v3.18-rc1/drivers/media/platform/vivid/vivid-radio-rx.c:198]: (error) Array 'vivid_radio_bands[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/drivers/media/platform/vivid/vivid-radio-rx.c:199]: (error) Array 'vivid_radio_bands[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/drivers/media/usb/gspca/gspca.c:1618]: (error) Possible null pointer dereference: frame
+[linux-v3.18-rc1/drivers/mfd/tps65911-comparator.c:61]: (error) Array 'tps_comparators[2]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/drivers/mfd/tps65911-comparator.c:88]: (error) Array 'tps_comparators[2]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/drivers/misc/fsa9480.c:254]: (error) syntax error
+[linux-v3.18-rc1/drivers/misc/lkdtm.c:335]: (error) Buffer is accessed out of bounds: data
+[linux-v3.18-rc1/drivers/misc/lkdtm.c:417]: (error) Uninitialized variable: data
+[linux-v3.18-rc1/drivers/misc/sgi-xp/xpc_partition.c:426]: (error) Memory leak: remote_rp_base
+[linux-v3.18-rc1/drivers/misc/sgi-xp/xpc_partition.c:73]: (error) Uninitialized variable: buf
+[linux-v3.18-rc1/drivers/misc/sgi-xp/xpc_sn2.c:2173]: (error) Uninitialized variable: msg
+[linux-v3.18-rc1/drivers/misc/sgi-xp/xpc_sn2.c:2174]: (error) Uninitialized variable: notify
+[linux-v3.18-rc1/drivers/mtd/mtdblock.c:368]: (error) Memory leak: dev
+[linux-v3.18-rc1/drivers/mtd/redboot.c:216]: (error) Possible null pointer dereference: fl
+[linux-v3.18-rc1/drivers/mtd/redboot.c:246]: (error) Possible null pointer dereference: fl
+[linux-v3.18-rc1/drivers/mtd/redboot.c:248]: (error) Possible null pointer dereference: fl
+[linux-v3.18-rc1/drivers/mtd/ubi/eba.c:1281]: (error) Uninitialized variable: aeb
+[linux-v3.18-rc1/drivers/mtd/ubi/eba.c:1364]: (error) Uninitialized variable: aeb
+[linux-v3.18-rc1/drivers/net/bonding/bond_main.c:4235]: (error) Array 'arp_ip_target[16]' accessed at index 9998, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/can/usb/esd_usb2.c:787]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/esd_usb2.c:788]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/esd_usb2.c:789]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/kvaser_usb.c:1343]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/kvaser_usb.c:1344]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/kvaser_usb.c:1345]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/kvaser_usb.c:1347]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/usb_8dev.c:671]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/usb_8dev.c:672]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/can/usb/usb_8dev.c:673]: (error) Possible null pointer dereference: context
+[linux-v3.18-rc1/drivers/net/ethernet/broadcom/bnx2x/bnx2x_stats.c:682]: (error) Memory leak: diff.hi
+[linux-v3.18-rc1/drivers/net/ethernet/broadcom/bnx2x/bnx2x_stats.c:682]: (error) Memory leak: diff.lo
+[linux-v3.18-rc1/drivers/net/ethernet/broadcom/bnx2x/bnx2x_stats.c:902]: (error) Memory leak: diff.hi
+[linux-v3.18-rc1/drivers/net/ethernet/broadcom/bnx2x/bnx2x_stats.c:902]: (error) Memory leak: diff.lo
+[linux-v3.18-rc1/drivers/net/ethernet/brocade/bna/bna_tx_rx.c:2014]: (error) Possible null pointer dereference: rx
+[linux-v3.18-rc1/drivers/net/ethernet/brocade/bna/bna_tx_rx.c:3501]: (error) Possible null pointer dereference: tx
+[linux-v3.18-rc1/drivers/net/ethernet/chelsio/cxgb4/t4_hw.c:1035]: (error) Possible null pointer dereference: fs_fw
+[linux-v3.18-rc1/drivers/net/ethernet/dec/tulip/de4x5.c:5010]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/dec/tulip/de4x5.c:5011]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/dec/tulip/de4x5.c:5012]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/dec/tulip/de4x5.c:5013]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/dec/tulip/de4x5.c:5014]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/emulex/benet/be_cmds.c:413]: (error) Uninitialized variable: compl
+[linux-v3.18-rc1/drivers/net/ethernet/i825xx/sun3_82586.c:993]: (error) Array 'p.xmit_cmds[1]' accessed at index 1, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/intel/e1000/e1000_hw.c:5417]: (error) Uninitialized variable: phy_data
+[linux-v3.18-rc1/drivers/net/ethernet/intel/e1000/e1000_hw.c:5464]: (error) Uninitialized variable: phy_data
+[linux-v3.18-rc1/drivers/net/ethernet/marvell/sky2.c:1175]: (error) Uninitialized variable: re
+[linux-v3.18-rc1/drivers/net/ethernet/mellanox/mlx4/cmd.c:1485]: (error) Possible null pointer dereference: cmd
+[linux-v3.18-rc1/drivers/net/ethernet/qlogic/qlcnic/qlcnic_dcb.c:826]: (error) Division by zero.
+[linux-v3.18-rc1/drivers/net/ethernet/qlogic/qlcnic/qlcnic_io.c:268]: (error) Memory leak: fil
+[linux-v3.18-rc1/drivers/net/ethernet/realtek/r8169.c:8236] -> [linux-v3.18-rc1/drivers/net/ethernet/realtek/r8169.c:4370]: (error) Array 'mac_addr[3]' accessed at index 5, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/realtek/r8169.c:8236] -> [linux-v3.18-rc1/drivers/net/ethernet/realtek/r8169.c:4373]: (error) Array 'mac_addr[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/samsung/sxgbe/sxgbe_platform.c:116]: (error) Possible null pointer dereference: priv
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:89]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1089]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1791]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1792]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1793]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1794]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1796]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1854]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1857]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1860]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1899]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1904]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1920]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ef10.c:1992]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:353]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:362]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:462]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:505]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1015]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1055]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1056]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1149]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1150]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1296]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1297]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1298]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1329]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1539]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1540]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1730]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1731]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1732]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1737]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1743]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:1744]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:2123]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:2220]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:2221]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/falcon.c:2300]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:212]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:214]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:218]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:223]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:994]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:1011]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:1012]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi.c:1058]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:617]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:837]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:846]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:855]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:880]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:881]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:882]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:883]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:885]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:887]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:889]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:890]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:891]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:893]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:894]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:993]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:994]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1040]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1041]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1042]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1065]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1068]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1120]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1190]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1295]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:1484]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_mon.c:113]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_mon.c:114]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_mon.c:203]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_mon.c:267]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_mon.c:454]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_mon.c:458]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_port.c:842]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_port.c:846]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/mcdi_port.c:847]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:840]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:848]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/farch.c:995]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ptp.c:1614]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ptp.c:1616]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ptp.c:1618]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ptp.c:1654]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ptp.c:1704]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/ptp.c:1675]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/siena.c:266]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/siena.c:730]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/siena_sriov.c:1384]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/siena_sriov.c:1385]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/siena_sriov.c:1485]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/sfc/siena_sriov.c:1380]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:557]: (error) Uninitialized variable: flags
+[linux-v3.18-rc1/drivers/net/ethernet/stmicro/stmmac/dwmac-sti.c:192]: (error) Array 'stih4xx_tx_retime_val[4]' accessed at index 4, which is out of bounds.
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:772]: (error) Uninitialized variable: mii_reg
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:678]: (error) Uninitialized variable: __mask
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:802]: (error) Uninitialized variable: mii_reg
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:1247]: (error) Uninitialized variable: __mask
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:1277]: (error) Uninitialized variable: __mask
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:1283]: (error) Uninitialized variable: __mask
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:1286]: (error) Uninitialized variable: __mask
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:1867]: (error) Uninitialized variable: val
+[linux-v3.18-rc1/drivers/net/ethernet/smsc/smc91x.c:1931]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/net/fddi/skfp/ecm.c:500]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/team/team_mode_loadbalance.c:459]: (error) Uninitialized variable: stats
+[linux-v3.18-rc1/drivers/net/virtio_net.c:859]: (error) Uninitialized variable: hdr
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath10k/core.c:84]: (error) Uninitialized variable: param_host
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath10k/core.c:70]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath10k/core.c:149]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath10k/core.c:205]: (error) Uninitialized variable: address
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath10k/core.c:627]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/drivers/net/wireless/airo.c:7649]: (error) syntax error
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath6kl/init.c:1196]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath9k/eeprom.c:414]: (error) Array 'data_9287[idxL].pwrPdg[4][1]' index data_9287[idxL].pwrPdg[0][4] out of bounds.
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath9k/hw.c:1227]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/wireless/ath/ath9k/hw.c:1229]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1851]: (error) Uninitialized variable: gains
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1853]: (error) Uninitialized variable: gains
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1851]: (error) Uninitialized struct member: gains.gm
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1853]: (error) Uninitialized struct member: gains.gm
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1851]: (error) Uninitialized struct member: gains.pga
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1853]: (error) Uninitialized struct member: gains.pga
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1851]: (error) Uninitialized struct member: gains.pad
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1853]: (error) Uninitialized struct member: gains.pad
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1851]: (error) Uninitialized struct member: gains.dac
+[linux-v3.18-rc1/drivers/net/wireless/b43/phy_lp.c:1853]: (error) Uninitialized struct member: gains.dac
+[linux-v3.18-rc1/drivers/net/wireless/brcm80211/brcmfmac/dhd_sdio.c:1811]: (error) Possible null pointer dereference: buf
+[linux-v3.18-rc1/drivers/net/wireless/hostap/hostap_ap.c:3221]: (error) Memory leak: sta
+[linux-v3.18-rc1/drivers/net/wireless/hostap/hostap_hw.c:2335]: (error) Memory leak: payload
+[linux-v3.18-rc1/drivers/net/wireless/ipw2x00/libipw_module.c:270]: (warning) %li in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v3.18-rc1/drivers/net/wireless/iwlwifi/iwl-phy-db.c:171] -> [linux-v3.18-rc1/drivers/net/wireless/iwlwifi/iwl-phy-db.c:173]: (warning) Array 'phy_db.calib_ch_group_papd[7]' accessed at index 9, which is out of bounds. Otherwise condition 'chg_id>=9' is redundant.
+[linux-v3.18-rc1/drivers/net/wireless/iwlwifi/mvm/ops.c:391]: (error) Uninitialized variable: mvm
+[linux-v3.18-rc1/drivers/net/wireless/iwlwifi/mvm/tx.c:998]: (error) Possible null pointer dereference: chanctx_conf
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:566]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:570]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:574]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:575]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:579]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:591]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:598]: (error) Uninitialized variable: txpktbuf_bndy
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:560]: (error) Uninitialized variable: value32
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8192de/hw.c:559]: (error) Uninitialized variable: value8
+[linux-v3.18-rc1/drivers/net/wireless/rtlwifi/rtl8723be/phy.c:1065]: (error) Uninitialized variable: txpower
+[linux-v3.18-rc1/drivers/net/wireless/ti/wl18xx/debugfs.c:118]: (error) Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/net/wireless/ti/wl18xx/debugfs.c:142]: (error) Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/net/wireless/ti/wl18xx/debugfs.c:144]: (error) Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/net/wireless/ti/wl18xx/debugfs.c:165]: (error) Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/net/wireless/ti/wlcore/boot.c:126]: (error) Undefined behavior: Variable 'min_fw_str' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/net/wireless/ti/wlcore/boot.c:129]: (error) Undefined behavior: Variable 'min_fw_str' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/pci/pcie/aer/aerdrv.c:334]: (error) Memory leak: rpc
+[linux-v3.18-rc1/drivers/pcmcia/ds.c:1145]: (error) Possible null pointer dereference: p_drv
+[linux-v3.18-rc1/drivers/pcmcia/ds.c:1198]: (error) Possible null pointer dereference: p_drv
+[linux-v3.18-rc1/drivers/pinctrl/pinconf.c:451]: (error) Possible null pointer dereference: found
+[linux-v3.18-rc1/drivers/pinctrl/pinconf.c:452]: (error) Possible null pointer dereference: found
+[linux-v3.18-rc1/drivers/pinctrl/pinconf.c:577]: (error) Possible null pointer dereference: found
+[linux-v3.18-rc1/drivers/platform/x86/thinkpad_acpi.c:5100]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/platform/x86/thinkpad_acpi.c:5605]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/pnp/card.c:179]: (error) Memory leak: dev_id
+[linux-v3.18-rc1/drivers/platform/x86/thinkpad_acpi.c:7185]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/rapidio/rio.c:683]: (error) Possible null pointer dereference: prev
+[linux-v3.18-rc1/drivers/s390/block/scm_blk.c:85]: (error) Memory leak: aobrq
+[linux-v3.18-rc1/drivers/s390/char/con3215.c:735]: (error) Array 'raw3215[1]' accessed at index 1, which is out of bounds.
+[linux-v3.18-rc1/drivers/s390/kvm/kvm_virtio.c:326]: (error) Memory leak: kdev
+[linux-v3.18-rc1/drivers/scsi/BusLogic.c:2258]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11560]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11563]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11564]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11565]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11566]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11567]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11568]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11569]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11570]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11571]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11572]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11573]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11575]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11577]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11579]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11581]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11582]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11586]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11587]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11588]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11590]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11592]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11593]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11594]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11595]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11596]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11597]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11598]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11599]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11600]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11601]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11603]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11605]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11607]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11609]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11614]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11615]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11616]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11618]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11620]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11621]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11622]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11623]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11624]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11625]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11626]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11627]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11628]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11629]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11631]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11633]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11635]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11637]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11677]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11680]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11741]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11743]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11745]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11747]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v3.18-rc1/drivers/scsi/advansys.c:11505]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/drivers/scsi/aic7xxx/aicasm/aicasm_symbol.c:649]: (error) Possible null pointer dereference: tab_str
+[linux-v3.18-rc1/drivers/scsi/aic7xxx/aicasm/aicasm_symbol.c:649]: (error) Possible null pointer dereference: tab_str2
+[linux-v3.18-rc1/drivers/scsi/be2iscsi/be_cmds.c:509]: (error) Uninitialized variable: compl
+[linux-v3.18-rc1/drivers/scsi/be2iscsi/be_main.c:793]: (error) Array 'phba.fw_config.iscsi_icd_count[2]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/drivers/scsi/be2iscsi/be_main.c:3516]: (error) Array 'phba.fw_config.iscsi_icd_start[2]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/drivers/scsi/be2iscsi/be_main.c:4118]: (error) Array 'phba.fw_config.iscsi_icd_start[2]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/drivers/scsi/cxgbi/cxgb4i/cxgb4i.c:1344]: (error) Possible null pointer dereference: skb
+[linux-v3.18-rc1/drivers/scsi/device_handler/scsi_dh.c:417]: (error) Possible null pointer dereference: scsi_dh
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2593]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2595]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2596]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2597]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2598]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2599]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:2600]: (error) Possible null pointer dereference: ctreq
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:3143]: (error) Possible null pointer dereference: txbuffer
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_bsg.c:3205]: (error) Possible null pointer dereference: rsp
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_els.c:3481]: (error) Possible null pointer dereference: buf_ptr
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_init.c:1223]: (error) Possible null pointer dereference: buf_ptr
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_scsi.c:1219]: (error) Possible null pointer dereference: psb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_scsi.c:1220]: (error) Possible null pointer dereference: psb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_scsi.c:1221]: (error) Possible null pointer dereference: psb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_scsi.c:1223]: (error) Possible null pointer dereference: psb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:1124]: (error) Possible null pointer dereference: piocb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:1890]: (error) Possible null pointer dereference: hbq_buffer
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:9276]: (error) Possible null pointer dereference: pmb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:9277]: (error) Possible null pointer dereference: pmb
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:9415]: (error) Possible null pointer dereference: buf_ptr
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:11378]: (error) Possible null pointer dereference: cq_event
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:11407]: (error) Possible null pointer dereference: cq_event
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:12717]: (error) Possible null pointer dereference: dmabuf
+[linux-v3.18-rc1/drivers/scsi/lpfc/lpfc_sli.c:16906]: (error) Possible null pointer dereference: mb
+[linux-v3.18-rc1/drivers/scsi/mpt2sas/mpt2sas_ctl.c:1049]: (error) Buffer is accessed out of bounds.
+[linux-v3.18-rc1/drivers/scsi/mpt2sas/mpt2sas_ctl.c:1050]: (error) Buffer is accessed out of bounds.
+[linux-v3.18-rc1/drivers/scsi/mpt3sas/mpt3sas_ctl.c:1038]: (error) Buffer is accessed out of bounds.
+[linux-v3.18-rc1/drivers/scsi/mpt3sas/mpt3sas_ctl.c:1039]: (error) Buffer is accessed out of bounds.
+[linux-v3.18-rc1/drivers/scsi/pcmcia/nsp_cs.c:300]: (error) Uninitialized struct member: tmp_sync.SyncRegister
+[linux-v3.18-rc1/drivers/scsi/pcmcia/nsp_cs.c:300]: (error) Uninitialized struct member: tmp_sync.AckWidth
+[linux-v3.18-rc1/drivers/scsi/qla2xxx/qla_target.c:2938]: (error) Array 'ha.tgt.cmds[1024]' accessed at index 1024, which is out of bounds.
+[linux-v3.18-rc1/drivers/spi/spi-s3c24xx.c:315]: (error) Possible null pointer dereference: code
+[linux-v3.18-rc1/drivers/spi/spi-s3c24xx.c:318]: (error) Possible null pointer dereference: code
+[linux-v3.18-rc1/drivers/staging/bcm/CmHost.c:1401]: (error) Array 'clsRule.u8IPv6FlowLable[3]' accessed at index 4, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/bcm/CmHost.c:1401]: (error) Array 'clsRule.u8IPv6FlowLable[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/bcm/CmHost.c:1401]: (error) Array 'clsRule.u8IPv6FlowLable[3]' accessed at index 5, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/comedi/drivers/ni_mio_common.c:4394]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/staging/ft1000/ft1000-usb/ft1000_hw.c:341]: (error) Memory leak: commandbuf
+[linux-v3.18-rc1/drivers/staging/lustre/lnet/klnds/o2iblnd/o2iblnd_cb.c:2256]: (error) Possible null pointer dereference: net
+[linux-v3.18-rc1/drivers/staging/lustre/lnet/klnds/o2iblnd/o2iblnd_cb.c:2269]: (error) Possible null pointer dereference: net
+[linux-v3.18-rc1/drivers/staging/lustre/lnet/selftest/rpc.c:378]: (error) Uninitialized struct member: md.max_size
+[linux-v3.18-rc1/drivers/staging/lustre/lnet/selftest/rpc.c:409]: (error) Uninitialized struct member: md.max_size
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/libcfs/tracefile.c:896]: (error) Memory leak: str
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/obdclass/cl_lock.c:592]: (error) Possible null pointer dereference: lock
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/obdclass/cl_lock.c:745]: (error) Possible null pointer dereference: lock
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/obdclass/cl_lock.c:863]: (error) Possible null pointer dereference: lock
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/obdclass/obd_mount.c:1147]: (error) Possible null pointer dereference: devname
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:92]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:95]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:99]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:100]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:104]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:106]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/lustre/lustre/ptlrpc/sec_lproc.c:130]: (error) Possible null pointer dereference: sec
+[linux-v3.18-rc1/drivers/staging/rtl8188eu/os_dep/usb_intf.c:324]: (error) Possible null pointer dereference: pwrpriv
+[linux-v3.18-rc1/drivers/staging/rtl8188eu/os_dep/usb_intf.c:326]: (error) Possible null pointer dereference: pwrpriv
+[linux-v3.18-rc1/drivers/staging/rtl8192e/rtl819x_BAProc.c:371]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192e/rtl819x_BAProc.c:395]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192e/rtl819x_BAProc.c:409]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192e/rtl819x_BAProc.c:410]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c:493]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c:531]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c:551]: (error) Possible null pointer dereference: pTS
+[linux-v3.18-rc1/drivers/staging/rtl8192u/r8192U_core.c:4474]: (error) Possible null pointer dereference: driver_info
+[linux-v3.18-rc1/drivers/staging/rtl8723au/core/rtw_wlan_util.c:940]: (error) Possible null pointer dereference: ssid
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:717]: (error) Array 'kw[40]' accessed at index 40, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:720]: (error) Array 'kw[40]' accessed at index 41, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:720]: (error) Array 'kw[40]' accessed at index 42, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:723]: (error) Array 'kw[40]' accessed at index 43, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:723]: (error) Array 'kw[40]' accessed at index 44, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:726]: (error) Array 'kw[40]' accessed at index 45, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:726]: (error) Array 'kw[40]' accessed at index 46, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:729]: (error) Array 'kw[40]' accessed at index 47, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:729]: (error) Array 'kw[40]' accessed at index 48, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:732]: (error) Array 'kw[40]' accessed at index 49, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/skein/skein_block.c:732]: (error) Array 'kw[40]' accessed at index 50, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/unisys/uislib/uisutils.c:67]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v3.18-rc1/drivers/staging/vt6655/device_main.c:987]: (error) Uninitialized variable: pci_cmd
+[linux-v3.18-rc1/drivers/staging/wlan-ng/cfg80211.c:79]: (error) Uninitialized variable: msg
+[linux-v3.18-rc1/drivers/staging/wlan-ng/cfg80211.c:93]: (error) Uninitialized variable: msg
+[linux-v3.18-rc1/drivers/staging/wlan-ng/cfg80211.c:691]: (error) Uninitialized variable: msg
+[linux-v3.18-rc1/drivers/staging/wlan-ng/prism2sta.c:1934]: (error) Uninitialized variable: msg
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:284]: (error) Array 'pVBInfo.CR40[3]' accessed at index 11, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:287]: (error) Array 'pVBInfo.CR40[3]' accessed at index 12, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:290]: (error) Array 'pVBInfo.CR40[3]' accessed at index 13, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:304]: (error) Array 'pVBInfo.CR40[3]' accessed at index 11, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:308]: (error) Array 'pVBInfo.CR40[3]' accessed at index 12, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:312]: (error) Array 'pVBInfo.CR40[3]' accessed at index 13, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:323]: (error) Array 'pVBInfo.CR40[3]' accessed at index 13, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:336]: (error) Array 'pVBInfo.CR40[3]' accessed at index 12, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:340]: (error) Array 'pVBInfo.CR40[3]' accessed at index 11, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:365]: (error) Array 'pVBInfo.CR40[3]' accessed at index 13, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:373]: (error) Array 'pVBInfo.CR40[3]' accessed at index 12, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:376]: (error) Array 'pVBInfo.CR40[3]' accessed at index 11, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:410]: (error) Array 'pVBInfo.CR40[3]' accessed at index 8, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:411]: (error) Array 'pVBInfo.CR40[3]' accessed at index 5, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:412]: (error) Array 'pVBInfo.CR40[3]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:413]: (error) Array 'pVBInfo.CR40[3]' accessed at index 7, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:432]: (error) Array 'pVBInfo.CR40[3]' accessed at index 9, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:435]: (error) Array 'pVBInfo.CR40[3]' accessed at index 10, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:446]: (error) Array 'pVBInfo.CR40[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:477]: (error) Array 'pVBInfo.CR40[3]' accessed at index 4, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:462]: (error) Array 'pVBInfo.CR40[3]' accessed at index 20, which is out of bounds.
+[linux-v3.18-rc1/drivers/staging/xgifb/vb_init.c:466]: (error) Array 'pVBInfo.CR40[3]' accessed at index 23, which is out of bounds.
+[linux-v3.18-rc1/drivers/thermal/thermal_core.c:859]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v3.18-rc1/drivers/tty/isicom.c:1581]: (error) Possible null pointer dereference: board
+[linux-v3.18-rc1/drivers/tty/isicom.c:1582]: (error) Possible null pointer dereference: board
+[linux-v3.18-rc1/drivers/tty/isicom.c:1583]: (error) Possible null pointer dereference: board
+[linux-v3.18-rc1/drivers/tty/mxser.c:2236]: (error) Possible null pointer dereference: brd
+[linux-v3.18-rc1/drivers/tty/n_gsm.c:2118]: (error) Memory leak: dlci
+[linux-v3.18-rc1/drivers/tty/sysrq.c:141]: (error) Possible null pointer dereference: killer
+[linux-v3.18-rc1/drivers/tty/tty_io.c:1463]: (error) Possible null pointer dereference: driver
+[linux-v3.18-rc1/drivers/usb/atm/cxacru.c:1110]: (error) Uninitialized variable: bp
+[linux-v3.18-rc1/drivers/usb/atm/usbatm.c:1339]: (error) Undefined behavior: Variable 'buffer' is used as parameter and destination in s[n]printf().
+[linux-v3.18-rc1/drivers/usb/core/config.c:345]: (error) Possible null pointer dereference: intfc
+[linux-v3.18-rc1/drivers/usb/core/config.c:346]: (error) Possible null pointer dereference: intfc
+[linux-v3.18-rc1/drivers/usb/core/hub.c:2184]: (error) Possible null pointer dereference: hub
+[linux-v3.18-rc1/drivers/usb/gadget/function/rndis.c:599]: (error) Memory leak: r
+[linux-v3.18-rc1/drivers/usb/gadget/function/rndis.c:702]: (error) Memory leak: r
+[linux-v3.18-rc1/drivers/usb/gadget/function/rndis.c:725]: (error) Memory leak: r
+[linux-v3.18-rc1/drivers/usb/gadget/function/rndis.c:754]: (error) Memory leak: r
+[linux-v3.18-rc1/drivers/usb/gadget/legacy/g_ffs.c:215]: (error) Array 'f_ffs[1]' accessed at index 1, which is out of bounds.
+[linux-v3.18-rc1/drivers/usb/gadget/udc/dummy_hcd.c:277]: (error) Uninitialized variable: ep
+[linux-v3.18-rc1/drivers/usb/gadget/udc/fsl_udc_core.c:855]: (error) Possible null pointer dereference: last_dtd
+[linux-v3.18-rc1/drivers/usb/gadget/udc/fsl_udc_core.c:856]: (error) Possible null pointer dereference: last_dtd
+[linux-v3.18-rc1/drivers/usb/gadget/udc/mv_udc_core.c:429]: (error) Possible null pointer dereference: last_dtd
+[linux-v3.18-rc1/drivers/usb/gadget/udc/mv_udc_core.c:430]: (error) Possible null pointer dereference: last_dtd
+[linux-v3.18-rc1/drivers/usb/gadget/udc/omap_udc.c:1358]: (error) Uninitialized variable: ep
+[linux-v3.18-rc1/drivers/usb/gadget/udc/lpc32xx_udc.c:556]: (error) Uninitialized variable: ep
+[linux-v3.18-rc1/drivers/usb/host/isp1362.h:899]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:429]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:435]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:692]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:700]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:708]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:1042]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:1051]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:1065]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:1096]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/host/isp1362-hcd.c:1118]: (error) Uninitialized variable: __v
+[linux-v3.18-rc1/drivers/usb/musb/cppi_dma.c:843]: (error) Possible null pointer dereference: tail
+[linux-v3.18-rc1/drivers/usb/musb/cppi_dma.c:844]: (error) Possible null pointer dereference: tail
+[linux-v3.18-rc1/drivers/usb/phy/phy-mxs-usb.c:221]: (error) Uninitialized variable: vbus_value
+[linux-v3.18-rc1/drivers/usb/serial/mos7720.c:1240]: (error) Possible null pointer dereference: urb
+[linux-v3.18-rc1/drivers/usb/serial/mos7840.c:1371]: (error) Possible null pointer dereference: urb
+[linux-v3.18-rc1/drivers/usb/serial/mos7840.c:1315]: (error) Uninitialized variable: mos7840_port
+[linux-v3.18-rc1/drivers/usb/serial/mos7840.c:1317]: (error) Uninitialized variable: mos7840_port
+[linux-v3.18-rc1/drivers/usb/serial/mos7840.c:1337]: (error) Uninitialized variable: mos7840_port
+[linux-v3.18-rc1/drivers/usb/usbip/vhci_sysfs.c:187]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/drivers/video/fbdev/aty/mach64_ct.c:180]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/video/fbdev/aty/mach64_ct.c:183]: (error) Shifting by a negative value is undefined behaviour
+[linux-v3.18-rc1/drivers/video/fbdev/broadsheetfb.c:673]: (error) Memory leak: sector_buffer
+[linux-v3.18-rc1/drivers/video/fbdev/matrox/matroxfb_maven.c:159]: (error) Uninitialized variable: dst
+[linux-v3.18-rc1/drivers/video/fbdev/omap/omapfb_main.c:1374]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/drivers/video/fbdev/omap2/omapfb/omapfb-ioctl.c:476]: (error) Possible null pointer dereference: mgr
+[linux-v3.18-rc1/drivers/video/fbdev/sis/init301.c:5717]: (error) Division by zero.
+[linux-v3.18-rc1/drivers/video/fbdev/sm501fb.c:1768]: (error) Possible null pointer dereference: pd
+[linux-v3.18-rc1/fs/adfs/dir.c:63]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v3.18-rc1/fs/adfs/dir.c:181]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v3.18-rc1/fs/adfs/dir.c:97]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v3.18-rc1/fs/btrfs/extent-tree.c:6418]: (error) Uninitialized variable: used_bg
+[linux-v3.18-rc1/fs/btrfs/disk-io.c:200]: (error) Uninitialized variable: ks
+[linux-v3.18-rc1/fs/btrfs/send.c:1712]: (error) Uninitialized struct member: found_key.objectid
+[linux-v3.18-rc1/fs/btrfs/send.c:1713]: (error) Uninitialized struct member: found_key.type
+[linux-v3.18-rc1/fs/btrfs/uuid-tree.c:149]: (error) Uninitialized variable: eb
+[linux-v3.18-rc1/fs/btrfs/uuid-tree.c:150]: (error) Uninitialized variable: eb
+[linux-v3.18-rc1/fs/btrfs/uuid-tree.c:149]: (error) Uninitialized variable: offset
+[linux-v3.18-rc1/fs/cifs/connect.c:3477]: (error) Uninitialized variable: xid
+[linux-v3.18-rc1/fs/cifs/connect.c:3474]: (error) Uninitialized variable: ses
+[linux-v3.18-rc1/fs/cifs/connect.c:3472]: (error) Uninitialized variable: tcon
+[linux-v3.18-rc1/fs/exofs/ore.c:204]: (error) Memory leak: extra_part
+[linux-v3.18-rc1/fs/exofs/super.c:570]: (error) Memory leak: aoded
+[linux-v3.18-rc1/fs/fat/inode.c:1468]: (error) Possible null pointer dereference: fdefaults
+[linux-v3.18-rc1/fs/fat/inode.c:1471]: (error) Possible null pointer dereference: fdefaults
+[linux-v3.18-rc1/fs/fat/inode.c:1472]: (error) Possible null pointer dereference: fdefaults
+[linux-v3.18-rc1/fs/fat/inode.c:1473]: (error) Possible null pointer dereference: fdefaults
+[linux-v3.18-rc1/fs/fuse/file.c:2544]: (error) Possible null pointer dereference: pages
+[linux-v3.18-rc1/fs/jfs/jfs_txnmgr.c:1932]: (error) Uninitialized variable: pxd
+[linux-v3.18-rc1/fs/jfs/jfs_txnmgr.c:1932]: (error) Uninitialized struct member: pxd.len
+[linux-v3.18-rc1/fs/jfs/jfs_txnmgr.c:1932]: (error) Uninitialized struct member: pxd.addr1
+[linux-v3.18-rc1/fs/jfs/jfs_txnmgr.c:1932]: (error) Uninitialized struct member: pxd.addr2
+[linux-v3.18-rc1/fs/nfs/idmap.c:277]: (error) Memory leak: desc
+[linux-v3.18-rc1/fs/nfsd/nfs4recover.c:1083]: (error) Null pointer dereference
+[linux-v3.18-rc1/fs/nfsd/nfs4recover.c:1112]: (error) Null pointer dereference
+[linux-v3.18-rc1/fs/nfsd/nfsctl.c:738]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/fs/nfsd/nfssvc.c:341]: (error) Array 'nfsd_version[1]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/fs/nfsd/nfssvc.c:341]: (error) Array 'nfsd_version[2]' accessed at index 2, which is out of bounds.
+[linux-v3.18-rc1/fs/ntfs/compress.c:228]: (error) Uninitialized variable: completed_pages
+[linux-v3.18-rc1/fs/ocfs2/dlm/dlmrecovery.c:1840]: (error) Possible null pointer dereference: lock
+[linux-v3.18-rc1/fs/reiserfs/do_balan.c:1506]: (error) Array 'tb.FEB[6]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/fs/reiserfs/do_balan.c:1508]: (error) Array 'tb.FEB[6]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/fs/reiserfs/do_balan.c:1509]: (error) Array 'tb.used[6]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/fs/reiserfs/do_balan.c:1509]: (error) Array 'tb.FEB[6]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/fs/reiserfs/do_balan.c:1510]: (error) Array 'tb.FEB[6]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/fs/reiserfs/do_balan.c:1512]: (error) Array 'tb.used[6]' accessed at index 6, which is out of bounds.
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_btree.c:3382]: (error) Array 'cur.bc_ptrs[8]' accessed at index 9998, which is out of bounds.
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_dir2_node.c:1473]: (error) Possible null pointer dereference: bp
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_dir2_node.c:450]: (error) Uninitialized variable: highstale
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_dir2_node.c:449]: (error) Uninitialized variable: lowstale
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_ialloc.c:1042]: (error) Uninitialized struct member: rrec.ir_startino
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_ialloc.c:1050]: (error) Uninitialized struct member: rrec.ir_startino
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_ialloc.c:1042]: (error) Uninitialized struct member: rrec.ir_freecount
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_ialloc.c:1050]: (error) Uninitialized struct member: rrec.ir_freecount
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_ialloc.c:1042]: (error) Uninitialized struct member: rrec.ir_free
+[linux-v3.18-rc1/fs/xfs/libxfs/xfs_ialloc.c:1050]: (error) Uninitialized struct member: rrec.ir_free
+[linux-v3.18-rc1/kernel/compat.c:223]: (error) Uninitialized variable: rmt
+[linux-v3.18-rc1/kernel/compat.c:232]: (error) Uninitialized variable: rmt
+[linux-v3.18-rc1/kernel/compat.c:255]: (error) Uninitialized variable: rmt
+[linux-v3.18-rc1/kernel/compat.c:285]: (error) Uninitialized variable: rmt
+[linux-v3.18-rc1/kernel/compat.c:555]: (error) Uninitialized variable: r
+[linux-v3.18-rc1/kernel/compat.c:559]: (error) Uninitialized variable: r
+[linux-v3.18-rc1/kernel/compat.c:582]: (error) Uninitialized variable: ru
+[linux-v3.18-rc1/kernel/compat.c:593]: (error) Uninitialized variable: ru
+[linux-v3.18-rc1/kernel/compat.c:717]: (error) Uninitialized variable: oldts
+[linux-v3.18-rc1/kernel/compat.c:719]: (error) Uninitialized variable: oldts
+[linux-v3.18-rc1/kernel/compat.c:734]: (error) Uninitialized variable: ts
+[linux-v3.18-rc1/kernel/compat.c:736]: (error) Uninitialized variable: ts
+[linux-v3.18-rc1/kernel/compat.c:768]: (error) Uninitialized variable: ts
+[linux-v3.18-rc1/kernel/compat.c:770]: (error) Uninitialized variable: ts
+[linux-v3.18-rc1/kernel/compat.c:808]: (error) Uninitialized variable: ts
+[linux-v3.18-rc1/kernel/compat.c:810]: (error) Uninitialized variable: ts
+[linux-v3.18-rc1/kernel/compat.c:822]: (error) Uninitialized variable: tu
+[linux-v3.18-rc1/kernel/compat.c:829]: (error) Uninitialized variable: tu
+[linux-v3.18-rc1/kernel/compat.c:855]: (error) Uninitialized variable: out
+[linux-v3.18-rc1/kernel/compat.c:859]: (error) Uninitialized variable: out
+[linux-v3.18-rc1/kernel/compat.c:1149]: (error) Uninitialized variable: t
+[linux-v3.18-rc1/kernel/compat.c:1151]: (error) Uninitialized variable: t
+[linux-v3.18-rc1/kernel/cgroup.c:5084]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:643]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:1053]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:1273]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:1388]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:2506]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:2660]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:4905]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:5044]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:5226]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/cgroup.c:5316]: (error) Uninitialized variable: ss
+[linux-v3.18-rc1/kernel/power/hibernate.c:912]: (error) Array 'hibernation_modes[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/kernel/power/hibernate.c:953]: (error) Array 'hibernation_modes[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/kernel/power/hibernate.c:954]: (error) Array 'hibernation_modes[3]' accessed at index 3, which is out of bounds.
+[linux-v3.18-rc1/kernel/power/hibernate.c:912]: (error) Array 'hibernation_modes[4]' accessed at index 4, which is out of bounds.
+[linux-v3.18-rc1/kernel/power/hibernate.c:953]: (error) Array 'hibernation_modes[4]' accessed at index 4, which is out of bounds.
+[linux-v3.18-rc1/kernel/power/hibernate.c:954]: (error) Array 'hibernation_modes[4]' accessed at index 4, which is out of bounds.
+[linux-v3.18-rc1/kernel/sched/rt.c:677]: (error) Uninitialized variable: iter
+[linux-v3.18-rc1/kernel/sched/rt.c:761]: (error) Uninitialized variable: iter
+[linux-v3.18-rc1/kernel/signal.c:3240]: (error) Uninitialized variable: uoss
+[linux-v3.18-rc1/kernel/time/posix-timers.c:384]: (error) Uninitialized variable: __timr
+[linux-v3.18-rc1/kernel/time/posix-timers.c:778]: (error) Uninitialized variable: __timr
+[linux-v3.18-rc1/kernel/time/posix-timers.c:811]: (error) Uninitialized variable: __timr
+[linux-v3.18-rc1/kernel/time/posix-timers.c:894]: (error) Uninitialized variable: __timr
+[linux-v3.18-rc1/kernel/time/posix-timers.c:942]: (error) Uninitialized variable: __timr
+[linux-v3.18-rc1/kernel/trace/ftrace.c:4777]: (error) Boolean value assigned to pointer.
+[linux-v3.18-rc1/kernel/trace/ftrace.c:4813]: (error) Boolean value assigned to pointer.
+[linux-v3.18-rc1/kernel/trace/ftrace.c:1712]: (error) Boolean value assigned to pointer.
+[linux-v3.18-rc1/kernel/trace/ftrace.c:1899]: (error) Boolean value assigned to pointer.
+[linux-v3.18-rc1/kernel/trace/ftrace.c:1955]: (error) Boolean value assigned to pointer.
+[linux-v3.18-rc1/kernel/trace/ftrace.c:1970]: (error) Boolean value assigned to pointer.
+[linux-v3.18-rc1/lib/argv_split.c:92]: (error) Memory leak: argv
+[linux-v3.18-rc1/lib/flex_array.c:294]: (error) Memory leak: part
+[linux-v3.18-rc1/lib/glob.c:48]: (error) Uninitialized variable: back_str
+[linux-v3.18-rc1/mm/hugetlb.c:1009]: (error) Uninitialized variable: node
+[linux-v3.18-rc1/mm/hugetlb.c:1051]: (error) Uninitialized variable: node
+[linux-v3.18-rc1/mm/hugetlb.c:1600]: (error) Uninitialized variable: node
+[linux-v3.18-rc1/mm/hugetlb.c:1606]: (error) Uninitialized variable: node
+[linux-v3.18-rc1/mm/hugetlb.c:802]: (error) Uninitialized variable: node
+[linux-v3.18-rc1/mm/mlock.c:783]: (error) Possible null pointer dereference: prev
+[linux-v3.18-rc1/mm/percpu.c:1384]: (error) Uninitialized variable: ai
+[linux-v3.18-rc1/net/ax25/ax25_dev.c:37]: (error) Uninitialized variable: ax25_dev
+[linux-v3.18-rc1/net/ax25/ax25_dev.c:141]: (error) Uninitialized variable: ax25_dev
+[linux-v3.18-rc1/net/bluetooth/a2mp.c:1025]: (error) Memory leak: mgr
+[linux-v3.18-rc1/net/bluetooth/rfcomm/core.c:1958]: (error) Memory leak: s
+[linux-v3.18-rc1/net/bluetooth/smp.c:1195]: (error) Memory leak: smp
+[linux-v3.18-rc1/net/ceph/mon_client.c:65]: (error) Possible null pointer dereference: m
+[linux-v3.18-rc1/net/core/skbuff.c:2999]: (error) Possible null pointer dereference: tail
+[linux-v3.18-rc1/net/ipv6/netfilter/nf_conntrack_reasm.c:439]: (error) Uninitialized variable: head
+[linux-v3.18-rc1/net/ipv6/reassembly.c:452]: (error) Uninitialized variable: head
+[linux-v3.18-rc1/net/netfilter/ipset/ip_set_list_set.c:416]: (error) Uninitialized struct member: e.before
+[linux-v3.18-rc1/net/netfilter/ipvs/ip_vs_ctl.c:2623]: (error) sprintf format string requires 4 parameters but only 2 are given.
+[linux-v3.18-rc1/net/netfilter/nf_tables_api.c:275]: (error) Memory leak: trans
+[linux-v3.18-rc1/net/netfilter/nf_tables_api.c:2616]: (error) Uninitialized variable: ctx
+[linux-v3.18-rc1/net/phonet/pn_dev.c:162]: (error) Memory leak: pnd
+[linux-v3.18-rc1/net/sctp/sm_make_chunk.c:1469]: (error) Possible null pointer dereference: data
+[linux-v3.18-rc1/net/wireless/wext-sme.c:351]: (error) Possible null pointer dereference: ie
+[linux-v3.18-rc1/scripts/docproc.c:398]: (error) Common realloc mistake: 'data' nulled but not freed upon failure
+[linux-v3.18-rc1/scripts/docproc.c:422]: (error) Common realloc mistake: 'all_list' nulled but not freed upon failure
+[linux-v3.18-rc1/scripts/dtc/util.h:37]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v3.18-rc1/scripts/dtc/checks.c:116]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v3.18-rc1/scripts/dtc/fdtput.c:99]: (error) Common realloc mistake: 'value' nulled but not freed upon failure
+[linux-v3.18-rc1/scripts/genksyms/genksyms.c:875]: (error) Resource leak: dumpfile
+[linux-v3.18-rc1/scripts/kconfig/confdata.c:975]: (error) Resource leak: tristate
+[linux-v3.18-rc1/scripts/kconfig/confdata.c:62]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v3.18-rc1/scripts/kconfig/nconf.gui.c:375]: (error) Common realloc mistake: 'result' nulled but not freed upon failure
+[linux-v3.18-rc1/scripts/kconfig/nconf.gui.c:481]: (error) Common realloc mistake: 'result' nulled but not freed upon failure
+[linux-v3.18-rc1/scripts/kconfig/symbol.c:904]: (error) Common realloc mistake: 'res' nulled but not freed upon failure
+[linux-v3.18-rc1/security/apparmor/domain.c:73]: (error) Possible null pointer dereference: tracerp
+[linux-v3.18-rc1/security/apparmor/match.c:64]: (error) Uninitialized struct member: th.td_hilen
+[linux-v3.18-rc1/security/apparmor/match.c:64]: (error) Uninitialized struct member: th.td_data
+[linux-v3.18-rc1/security/integrity/ima/ima_api.c:281]: (error) Memory leak: entry
+[linux-v3.18-rc1/security/selinux/selinuxfs.c:1352]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/sound/core/seq/seq_dummy.c:222]: (error) Memory leak: rec1
+[linux-v3.18-rc1/sound/core/seq/seq_dummy.c:230]: (error) Memory leak: rec2
+[linux-v3.18-rc1/sound/firewire/dice.c:997]: (error) Uninitialized variable: buf
+[linux-v3.18-rc1/sound/firewire/dice.c:998]: (error) Uninitialized variable: buf
+[linux-v3.18-rc1/sound/oss/midi_synth.c:51]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/midi_synth.c:57]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/midi_synth.c:61]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/midi_synth.c:66]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/midi_synth.c:70]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/midi_synth.c:74]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/midi_synth.c:79]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/mpu401.c:1659]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/mpu401.c:1670]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/mpu401.c:1680]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/oss/mpu401.c:1688]: (error) Uninitialized variable: len
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:743]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:766]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:868]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:935]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:1009]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:1151]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:1343]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:1545]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:1661]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_via.c:1780]: (error) Memory leak: spec
+[linux-v3.18-rc1/sound/pci/hda/patch_ca0132.c:2914]: (error) Array 'ca0132_tuning_ctls[12]' accessed at index 12, which is out of bounds.
+[linux-v3.18-rc1/sound/pci/hda/patch_ca0132.c:2915]: (error) Array 'ca0132_tuning_ctls[12]' accessed at index 12, which is out of bounds.
+[linux-v3.18-rc1/sound/pci/ice1712/wm8766.c:257]: (error) Uninitialized variable: val2
+[linux-v3.18-rc1/sound/pci/ice1712/wm8776.c:530]: (error) Uninitialized variable: val2
+[linux-v3.18-rc1/sound/pci/pcxhr/pcxhr.c:728]: (error) Uninitialized struct member: pipe.first_audio
+[linux-v3.18-rc1/sound/soc/sh/rcar/core.c:708]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/sound/soc/sh/rcar/core.c:951]: (error) Uninitialized variable: ret
+[linux-v3.18-rc1/tools/hv/hv_kvp_daemon.c:290]: (error) Common realloc mistake: 'record' nulled but not freed upon failure
+[linux-v3.18-rc1/tools/hv/hv_kvp_daemon.c:393]: (error) Common realloc mistake: 'record' nulled but not freed upon failure
+[linux-v3.18-rc1/tools/lib/traceevent/plugin_function.c:148]: (error) Uninitialized variable: index
+[linux-v3.18-rc1/tools/lib/traceevent/parse-filter.c:1238]: (error) Memory leak: arg
+[linux-v3.18-rc1/tools/lib/traceevent/parse-filter.c:1496]: (error) Memory leak: arg
+[linux-v3.18-rc1/tools/lib/traceevent/event-parse.c:262]: (error) Common realloc mistake: 'cmdlines' nulled but not freed upon failure
+[linux-v3.18-rc1/tools/net/bpf_dbg.c:1394]: (error) Resource leak: fin
+[linux-v3.18-rc1/tools/perf/builtin-kmem.c:302]: (error) Uninitialized variable: map
+[linux-v3.18-rc1/tools/perf/builtin-kmem.c:302]: (error) Uninitialized struct member: map.unmap_ip
+[linux-v3.18-rc1/tools/perf/builtin-kvm.c:1149]: (error) Memory leak: rec_argv
+[linux-v3.18-rc1/tools/perf/builtin-stat.c:1712]: (error) Possible null pointer dereference: output_name
+[linux-v3.18-rc1/tools/perf/builtin-timechart.c:1729]: (error) Memory leak: rec_argv
+[linux-v3.18-rc1/tools/perf/builtin-trace.c:1981]: (error) Memory leak: rec_argv
+[linux-v3.18-rc1/tools/perf/perf.c:284]: (error) Common realloc mistake: 'new_argv' nulled but not freed upon failure
+[linux-v3.18-rc1/tools/perf/builtin-trace.c:461]: (error) syntax error
+[linux-v3.18-rc1/tools/perf/builtin-trace.c:458]: (error) syntax error
+[linux-v3.18-rc1/tools/perf/builtin-trace.c:452]: (error) syntax error
+[linux-v3.18-rc1/tools/perf/builtin-trace.c:455]: (error) syntax error
+[linux-v3.18-rc1/tools/perf/builtin-trace.c:447]: (error) syntax error
+[linux-v3.18-rc1/tools/perf/util/annotate.c:707]: (error) Memory leak: ppercents
+[linux-v3.18-rc1/tools/perf/util/cpumap.c:55]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/tools/power/acpi/os_specific/service_layers/oslinuxtbl.c:1064]: (error) fprintf format string requires 2 parameters but only 1 is given.
+[linux-v3.18-rc1/tools/power/acpi/os_specific/service_layers/oslinuxtbl.c:1098]: (error) fprintf format string requires 3 parameters but only 2 are given.
+[linux-v3.18-rc1/tools/power/cpupower/bench/parse.c:87]: (error) Common realloc mistake: 'filename' nulled but not freed upon failure
+[linux-v3.18-rc1/tools/power/cpupower/utils/cpufreq-info.c:43]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v3.18-rc1/tools/power/cpupower/utils/cpupower.c:99]: (error) Memory leak: page
+[linux-v3.18-rc1/tools/power/x86/x86_energy_perf_policy/x86_energy_perf_policy.c:288]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/tools/testing/selftests/memfd/fuse_test.c:220]: (error) Memory leak: stack
+[linux-v3.18-rc1/tools/power/x86/turbostat/turbostat.c:1359]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v3.18-rc1/tools/testing/selftests/memfd/memfd_test.c:526]: (error) Memory leak: stack
+[linux-v3.18-rc1/tools/power/x86/turbostat/turbostat.c:1911] -> [linux-v3.18-rc1/tools/power/x86/turbostat/turbostat.c:1907]: (warning) Array 'slm_freq_table[5]' accessed at index 5, which is out of bounds. Otherwise condition 'i>=5' is redundant.
+[linux-v3.18-rc1/tools/testing/selftests/powerpc/copyloops/validate.c:94]: (error) Memory leak: redzone
+[linux-v3.18-rc1/tools/testing/selftests/powerpc/copyloops/validate.c:94]: (error) Memory leak: fill
+[linux-v3.18-rc1/tools/usb/ffs-aio-example/multibuff/device_app/aio_multibuff.c:267]: (error) Memory leak: ep_path
+[linux-v3.18-rc1/tools/usb/ffs-aio-example/simple/device_app/aio_simple.c:236]: (error) Memory leak: ep_path
+[linux-v3.18-rc1/tools/usb/ffs-test.c:228]: (error) Uninitialized variable: descs_start

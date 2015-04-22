@@ -1,0 +1,747 @@
+[linux-v2.6.33/Documentation/connector/ucon.c:250]: (error) Resource leak: out
+[linux-v2.6.33/Documentation/hwmon/hpfall.c:33]: (error) Dangerous usage of 'devname' (strncpy doesn't always null-terminate it).
+[linux-v2.6.33/arch/alpha/kernel/osf_sys.c:1046]: (error) Uninitialized variable: r
+[linux-v2.6.33/arch/arm/mach-footbridge/common.c:234]: (error) Invalid number of character (() when these macros are defined: 'CONFIG_FOOTBRIDGE_ADDIN'.
+[linux-v2.6.33/arch/arm/mach-omap1/board-innovator.c:425]: (error) Array 'innovator_config[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/arch/arm/mach-omap1/board-innovator.c:431]: (error) Array 'innovator_config[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/arch/arm/mach-omap2/board-omap3evm.c:240]: (error) Array 'gpio_leds[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/arch/arm/mm/cache-tauros2.c:256]: (error) Uninitialized variable: mode
+[linux-v2.6.33/arch/arm/plat-omap/iommu.c:584]: (error) Possible null pointer dereference: fn
+[linux-v2.6.33/arch/avr32/boards/atngw100/mrmt.c:154]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_BOARD_MRMT_UCB1400_TS'.
+[linux-v2.6.33/arch/blackfin/kernel/traps.c:71]: (error) Uninitialized variable: in_atomic
+[linux-v2.6.33/arch/blackfin/kernel/traps.c:1118]: (error) Uninitialized variable: in_atomic
+[linux-v2.6.33/arch/cris/arch-v32/drivers/axisflashmap.c:292]: (error) Uninitialized variable: mtd_total
+[linux-v2.6.33/arch/cris/arch-v32/kernel/irq.c:409] -> [linux-v2.6.33/arch/cris/arch-v32/kernel/irq.c:413]: (warning) Array 'masked[1]' accessed at index 1, which is out of bounds. Otherwise condition 'i==1' is redundant.
+[linux-v2.6.33/arch/cris/arch-v32/kernel/irq.c:424] -> [linux-v2.6.33/arch/cris/arch-v32/kernel/irq.c:424]: (warning) Array 'masked[1]' accessed at index 1, which is out of bounds. Otherwise condition 'i==1' is redundant.
+[linux-v2.6.33/arch/cris/arch-v32/kernel/irq.c:425] -> [linux-v2.6.33/arch/cris/arch-v32/kernel/irq.c:424]: (warning) Array 'masked[1]' accessed at index 1, which is out of bounds. Otherwise condition 'i==1' is redundant.
+[linux-v2.6.33/arch/cris/arch-v32/drivers/cryptocop.c:1850]: (error) Memory leak: pj
+[linux-v2.6.33/arch/cris/arch-v32/drivers/sync_serial.c:284]: (error) Array 'ports[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/arch/cris/arch-v32/mach-fs/vcs_hook.c:52]: (error) va_start() or va_copy() called subsequently on 'ap' without va_end() inbetween.
+[linux-v2.6.33/arch/frv/kernel/pm.c:165]: (error) Uninitialized variable: retval
+[linux-v2.6.33/arch/frv/kernel/time.c:126]: (error) Uninitialized variable: year
+[linux-v2.6.33/arch/frv/kernel/time.c:126]: (error) Uninitialized variable: mon
+[linux-v2.6.33/arch/frv/kernel/time.c:126]: (error) Uninitialized variable: day
+[linux-v2.6.33/arch/frv/kernel/time.c:126]: (error) Uninitialized variable: hour
+[linux-v2.6.33/arch/frv/kernel/time.c:126]: (error) Uninitialized variable: min
+[linux-v2.6.33/arch/frv/kernel/time.c:126]: (error) Uninitialized variable: sec
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:649]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:956]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:982]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:1003]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:1178]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:1501]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:2084]: (error) Memory leak: ioc
+[linux-v2.6.33/arch/ia64/hp/common/sba_iommu.c:1143]: (error) Possible null pointer dereference: ioc
+[linux-v2.6.33/arch/ia64/ia32/sys_ia32.c:1608]: (error) Uninitialized struct member: buf32.ss_size
+[linux-v2.6.33/arch/ia64/ia32/sys_ia32.c:1850]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/ia64/kernel/palinfo.c:133]: (error) Array 'units[5]' accessed at index 6, which is out of bounds.
+[linux-v2.6.33/arch/ia64/sn/kernel/sn2/sn_hwperf.c:280]: (error) Possible null pointer dereference: nodeobj
+[linux-v2.6.33/arch/ia64/sn/pci/tioce_provider.c:1040]: (error) Memory leak: tioce_kern
+[linux-v2.6.33/arch/m32r/kernel/ptrace.c:117]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/m68k/mm/kmap.c:224]: (error) Memory leak: area
+[linux-v2.6.33/arch/mips/cavium-octeon/executive/cvmx-l2c.c:254]: (error) Uninitialized variable: dummy
+[linux-v2.6.33/arch/mips/kernel/linux32.c:152]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/mips/kernel/signal.c:158]: (error) Uninitialized variable: used_math
+[linux-v2.6.33/arch/mips/kernel/signal32.c:189]: (error) Uninitialized variable: used_math
+[linux-v2.6.33/arch/mips/kernel/signal32.c:827]: (error) Uninitialized variable: ru
+[linux-v2.6.33/arch/mips/loongson/common/machtype.c:50]: (error) Dangerous usage of 'str' (strncpy doesn't always null-terminate it).
+[linux-v2.6.33/arch/mips/pmc-sierra/yosemite/ht.c:280]: (error) Uninitialized variable: cmd
+[linux-v2.6.33/arch/mips/pmc-sierra/yosemite/ht.c:298]: (error) Uninitialized variable: cmd
+[linux-v2.6.33/arch/mips/pmc-sierra/yosemite/ht.c:312]: (error) Uninitialized variable: cmd
+[linux-v2.6.33/arch/mn10300/boot/tools/build.c:54]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.33/arch/mn10300/kernel/ptrace.c:269]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/mn10300/kernel/ptrace.c:271]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/mn10300/kernel/ptrace.c:284]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/mn10300/kernel/ptrace.c:286]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/parisc/kernel/sys_parisc32.c:93]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/parisc/lib/memcpy.c:256]: (error) Uninitialized variable: dummy
+[linux-v2.6.33/arch/parisc/lib/memcpy.c:257]: (error) Uninitialized variable: dummy
+[linux-v2.6.33/arch/parisc/lib/memcpy.c:450]: (error) Uninitialized variable: dummy
+[linux-v2.6.33/arch/parisc/lib/memcpy.c:451]: (error) Uninitialized variable: dummy
+[linux-v2.6.33/arch/powerpc/boot/addRamDisk.c:305]: (error) Deallocating a deallocated pointer: outputVmlinux
+[linux-v2.6.33/arch/powerpc/kernel/power4-pmu.c:506]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/arch/powerpc/kernel/ppc970-pmu.c:378]: (error) Array 'pmcsel[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/arch/powerpc/kernel/prom_init.c:355]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.33/arch/powerpc/kernel/sys_ppc32.c:238]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/powerpc/platforms/cell/cbe_thermal.c:132]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/arch/powerpc/platforms/powermac/low_i2c.c:1375]: (error) Array 'inst.buffer[64]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.33/arch/powerpc/platforms/powermac/bootx_init.c:86]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.33/arch/s390/kernel/compat_linux.c:351]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/s390/kernel/compat_linux.c:378]: (error) Uninitialized variable: s
+[linux-v2.6.33/arch/s390/kernel/compat_linux.c:379]: (error) Uninitialized variable: s
+[linux-v2.6.33/arch/s390/kernel/compat_linux.c:405]: (error) Uninitialized variable: s
+[linux-v2.6.33/arch/s390/kernel/early.c:141]: (error) Undefined behavior: Variable 'defsys_cmd' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/arch/s390/kernel/early.c:135]: (error) Undefined behavior: Variable 'defsys_cmd' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/arch/s390/kernel/ipl.c:749]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.33/arch/s390/kernel/ipl.c:751]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.33/arch/s390/kernel/ipl.c:1286]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.33/arch/s390/kernel/ipl.c:1288]: (warning) %lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:155]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:160]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:164]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:168]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:181]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:187]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:194]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:198]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:200]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:204]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:208]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:175]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:416]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:420]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:424]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:433]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:437]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:440]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:446]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:453]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:457]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:460]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kernel/ptrace.c:464]: (error) Possible null pointer dereference: dummy32
+[linux-v2.6.33/arch/s390/kvm/sigp.c:216]: (error) Possible null pointer dereference: li
+[linux-v2.6.33/arch/sh/drivers/push-switch.c:26]: (error) syntax error
+[linux-v2.6.33/arch/sh/kernel/ptrace_32.c:331]: (error) Possible null pointer dereference: dummy
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:356]: (error) Array 't_nmi[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:357]: (error) Array 't_nmi[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:358]: (error) Array 't_nmi[1]' accessed at index 3, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:356]: (error) Array 'pcic_nmi_trap_patch[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:357]: (error) Array 'pcic_nmi_trap_patch[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:358]: (error) Array 'pcic_nmi_trap_patch[1]' accessed at index 3, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/pcic.c:692]: (error) Uninitialized variable: irq
+[linux-v2.6.33/arch/sparc/kernel/starfire.c:106]: (error) Array 'p.imap_slots[32]' accessed at index 32, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/starfire.c:113]: (error) Array 'p.tregs[32]' accessed at index 32, which is out of bounds.
+[linux-v2.6.33/arch/sparc/kernel/sys_sparc32.c:223]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/sparc/kernel/sysfs.c:153]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/arch/um/drivers/net_user.c:257]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.33/arch/um/os-Linux/process.c:263]: (error) Address of local auto-variable assigned to a function parameter.
+[linux-v2.6.33/arch/um/os-Linux/mem.c:178]: (error) Memory leak: tempname
+[linux-v2.6.33/arch/um/os-Linux/uaccess.c:18]: (error) Address of local auto-variable assigned to a function parameter.
+[linux-v2.6.33/arch/x86/boot/compressed/relocs.c:681]: (error) Resource leak: fp
+[linux-v2.6.33/arch/x86/boot/tools/build.c:129]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.33/arch/x86/ia32/sys_ia32.c:374]: (error) Uninitialized variable: t
+[linux-v2.6.33/arch/x86/kernel/machine_kexec_32.c:116]: (error) Possible null pointer dereference: pmd
+[linux-v2.6.33/arch/x86/math-emu/poly_2xm1.c:127]: (error) Uninitialized struct member: Denom.msw
+[linux-v2.6.33/arch/x86/math-emu/poly_2xm1.c:73]: (error) Uninitialized struct member: argSignif.msw
+[linux-v2.6.33/arch/x86/math-emu/poly_atan.c:92]: (error) Uninitialized variable: argSignif
+[linux-v2.6.33/arch/x86/math-emu/poly_l2.c:205]: (error) Uninitialized struct member: Numer.msw
+[linux-v2.6.33/arch/x86/math-emu/poly_l2.c:194]: (error) Uninitialized variable: argSignif
+[linux-v2.6.33/arch/x86/math-emu/poly_l2.c:199]: (error) Uninitialized variable: argSignif
+[linux-v2.6.33/arch/x86/math-emu/poly_l2.c:218]: (error) Uninitialized struct member: argSignif.lsw
+[linux-v2.6.33/arch/x86/math-emu/poly_l2.c:219]: (error) Uninitialized struct member: argSignif.midw
+[linux-v2.6.33/arch/x86/math-emu/poly_l2.c:212]: (error) Uninitialized struct member: argSignif.msw
+[linux-v2.6.33/arch/x86/math-emu/poly_sin.c:352]: (error) Uninitialized struct member: fix_up.msw
+[linux-v2.6.33/arch/x86/math-emu/poly_tan.c:108]: (error) Uninitialized struct member: accum.lsw
+[linux-v2.6.33/arch/x86/math-emu/poly_tan.c:186]: (error) Uninitialized struct member: fix_up.msw
+[linux-v2.6.33/arch/xtensa/platforms/iss/network.c:164]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.33/drivers/acpi/container.c:221]: (error) Possible null pointer dereference: hid
+[linux-v2.6.33/drivers/acpi/battery.c:464]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/drivers/acpi/sbs.c:464]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/drivers/atm/fore200e.c:2809]: (error) Uninitialized variable: err
+[linux-v2.6.33/drivers/block/drbd/drbd_vli.h:342]: (error) Uninitialized variable: code
+[linux-v2.6.33/drivers/char/ip2/i2cmd.c:207]: (error) Array 'pCM.cmd[2]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/drivers/char/isicom.c:1573]: (error) Possible null pointer dereference: board
+[linux-v2.6.33/drivers/char/isicom.c:1574]: (error) Possible null pointer dereference: board
+[linux-v2.6.33/drivers/char/isicom.c:1575]: (error) Possible null pointer dereference: board
+[linux-v2.6.33/drivers/char/mxser.c:2228]: (error) Possible null pointer dereference: brd
+[linux-v2.6.33/drivers/char/sysrq.c:130]: (error) Possible null pointer dereference: killer
+[linux-v2.6.33/drivers/char/vme_scc.c:1097]: (error) Possible null pointer dereference: p
+[linux-v2.6.33/drivers/char/vme_scc.c:1099]: (error) Possible null pointer dereference: p
+[linux-v2.6.33/drivers/char/vme_scc.c:1101]: (error) Possible null pointer dereference: p
+[linux-v2.6.33/drivers/dma/iop-adma.c:1367]: (error) Array 'pq_src[4]' accessed at index 5, which is out of bounds.
+[linux-v2.6.33/drivers/dma/iop-adma.c:1399]: (error) Array 'pq_src[4]' accessed at index 5, which is out of bounds.
+[linux-v2.6.33/drivers/gpu/drm/drm_ioc32.c:356]: (error) Uninitialized variable: s32
+[linux-v2.6.33/drivers/gpu/drm/radeon/mkregtable.c:677]: (error) Resource leak: file
+[linux-v2.6.33/drivers/gpu/drm/radeon/mkregtable.c:688]: (error) Resource leak: file
+[linux-v2.6.33/drivers/hwmon/fschmd.c:1040]: (error) Array index -1 is out of bounds.
+[linux-v2.6.33/drivers/hwmon/tmp421.c:255]: (error) Array index -1 is out of bounds.
+[linux-v2.6.33/drivers/hwmon/tmp421.c:257]: (error) Array index -1 is out of bounds.
+[linux-v2.6.33/drivers/i2c/i2c-core.c:520]: (warning) %hi in format string (no. 1) requires 'short *' but the argument type is 'unsigned short *'.
+[linux-v2.6.33/drivers/infiniband/hw/cxgb3/iwch_provider.c:1131]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/drivers/infiniband/hw/cxgb3/iwch_provider.c:1133]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/drivers/infiniband/hw/cxgb3/iwch_provider.c:1135]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/drivers/infiniband/hw/cxgb3/iwch_provider.c:586]: (error) Uninitialized variable: npages
+[linux-v2.6.33/drivers/infiniband/hw/ipath/ipath_diag.c:363]: (error) Uninitialized struct member: dp.unit
+[linux-v2.6.33/drivers/input/keyboard/omap-keypad.c:254]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/isdn/gigaset/ev-layer.c:553]: (error) Array index -1 is out of bounds.
+[linux-v2.6.33/drivers/isdn/i4l/isdn_ttyfax.c:329]: (error) Uninitialized variable: c
+[linux-v2.6.33/drivers/isdn/icn/icn.c:1578]: (error) Memory leak: card
+[linux-v2.6.33/drivers/isdn/isdnloop/isdnloop.c:1490]: (error) Memory leak: card
+[linux-v2.6.33/drivers/leds/leds-gpio.c:318]: (error) Uninitialized variable: ret
+[linux-v2.6.33/drivers/lguest/lguest_device.c:445]: (error) Memory leak: ldev
+[linux-v2.6.33/drivers/isdn/mISDN/dsp_cmx.c:1616]: (error) Invalid number of character ({) when these macros are defined: 'DSP_NEVER_DEFINED'.
+[linux-v2.6.33/drivers/macintosh/windfarm_pm121.c:540]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm121.c:553]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm121.c:557]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:294]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:295]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:296]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:297]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:300]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:301]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:302]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/macintosh/windfarm_pm81.c:305]: (error) Possible null pointer dereference: param
+[linux-v2.6.33/drivers/media/dvb/frontends/ds3000.c:745]: (error) Array 'dvbs2_snr_tab[80]' accessed at index 80, which is out of bounds.
+[linux-v2.6.33/drivers/media/dvb/frontends/stv0900_core.c:533]: (error) Possible null pointer dereference: tuner_ops
+[linux-v2.6.33/drivers/media/dvb/frontends/stv0900_core.c:561]: (error) Possible null pointer dereference: tuner_ops
+[linux-v2.6.33/drivers/media/dvb/frontends/stv0900_sw.c:1165]: (error) Possible null pointer dereference: tuner_ops
+[linux-v2.6.33/drivers/media/dvb/pluto2/pluto2.c:483]: (error) Array 'buf[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.33/drivers/media/dvb/pluto2/pluto2.c:484]: (error) Array 'buf[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.33/drivers/media/dvb/pluto2/pluto2.c:485]: (error) Array 'buf[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.33/drivers/media/dvb/pluto2/pluto2.c:487]: (error) Array 'buf[4]' accessed at index 5, which is out of bounds.
+[linux-v2.6.33/drivers/media/dvb/siano/smsir.c:175]: (error) Uninitialized variable: j
+[linux-v2.6.33/drivers/media/video/cafe_ccic.c:1356]: (error) Possible null pointer dereference: sbuf
+[linux-v2.6.33/drivers/media/video/cafe_ccic.c:1362]: (error) Possible null pointer dereference: sbuf
+[linux-v2.6.33/drivers/media/video/gspca/gspca.c:1635]: (error) Possible null pointer dereference: frame
+[linux-v2.6.33/drivers/media/video/ir-kbd-i2c.c:235]: (error) Uninitialized variable: key
+[linux-v2.6.33/drivers/media/video/mx1_camera.c:464]: (error) Uninitialized variable: ret
+[linux-v2.6.33/drivers/media/video/saa7134/saa7134-input.c:155]: (error) Uninitialized variable: b
+[linux-v2.6.33/drivers/media/video/saa7134/saa7134-video.c:1996]: (error) Array 'saa7134_boards[dev.board].inputs[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/drivers/media/video/v4l2-ioctl.c:420]: (error) Possible null pointer dereference: p
+[linux-v2.6.33/drivers/media/video/v4l2-ioctl.c:422]: (error) Possible null pointer dereference: p
+[linux-v2.6.33/drivers/message/i2o/i2o_proc.c:266]: (error) Pointer to local array variable returned.
+[linux-v2.6.33/drivers/misc/sgi-xp/xpc_partition.c:425]: (error) Memory leak: remote_rp_base
+[linux-v2.6.33/drivers/misc/sgi-xp/xpc_partition.c:72]: (error) Uninitialized variable: buf
+[linux-v2.6.33/drivers/misc/sgi-xp/xpc_sn2.c:2172]: (error) Uninitialized variable: msg
+[linux-v2.6.33/drivers/misc/sgi-xp/xpc_sn2.c:2173]: (error) Uninitialized variable: notify
+[linux-v2.6.33/drivers/mtd/maps/ceiva.c:269]: (error) Uninitialized variable: nr
+[linux-v2.6.33/drivers/mtd/mtdcore.c:505]: (error) Possible null pointer dereference: mtd
+[linux-v2.6.33/drivers/mtd/mtdcore.c:508]: (error) Possible null pointer dereference: mtd
+[linux-v2.6.33/drivers/mtd/mtdpart.c:525]: (error) Memory leak: slave
+[linux-v2.6.33/drivers/mtd/redboot.c:200]: (error) Possible null pointer dereference: fl
+[linux-v2.6.33/drivers/mtd/redboot.c:230]: (error) Possible null pointer dereference: fl
+[linux-v2.6.33/drivers/mtd/redboot.c:232]: (error) Possible null pointer dereference: fl
+[linux-v2.6.33/drivers/mtd/ubi/eba.c:1220]: (error) Uninitialized variable: seb
+[linux-v2.6.33/drivers/net/benet/be_cmds.c:125]: (error) Uninitialized variable: compl
+[linux-v2.6.33/drivers/net/bnx2x_main.c:3871]: (error) Memory leak: diff.hi
+[linux-v2.6.33/drivers/net/bnx2x_main.c:3871]: (error) Memory leak: diff.lo
+[linux-v2.6.33/drivers/net/bnx2x_main.c:3977]: (error) Memory leak: diff.hi
+[linux-v2.6.33/drivers/net/bnx2x_main.c:3977]: (error) Memory leak: diff.lo
+[linux-v2.6.33/drivers/net/cxgb3/cxgb3_offload.c:186]: (error) Possible null pointer dereference: dev
+[linux-v2.6.33/drivers/net/e1000/e1000_hw.c:5359]: (error) Uninitialized variable: phy_data
+[linux-v2.6.33/drivers/net/e1000/e1000_hw.c:5405]: (error) Uninitialized variable: phy_data
+[linux-v2.6.33/drivers/net/enc28j60.c:816]: (warning) Using 'sizeof' on array given as function argument returns size of a pointer.
+[linux-v2.6.33/drivers/net/fec.c:1175]: (error) Possible null pointer dereference: iap
+[linux-v2.6.33/drivers/net/pasemi_mac.c:1835]: (error) syntax error
+[linux-v2.6.33/drivers/net/smc91x.c:557]: (error) Uninitialized variable: flags
+[linux-v2.6.33/drivers/net/smc91x.c:774]: (error) Uninitialized variable: mii_reg
+[linux-v2.6.33/drivers/net/smc91x.c:678]: (error) Uninitialized variable: __mask
+[linux-v2.6.33/drivers/net/smc91x.c:804]: (error) Uninitialized variable: mii_reg
+[linux-v2.6.33/drivers/net/smc91x.c:1249]: (error) Uninitialized variable: __mask
+[linux-v2.6.33/drivers/net/smc91x.c:1279]: (error) Uninitialized variable: __mask
+[linux-v2.6.33/drivers/net/smc91x.c:1285]: (error) Uninitialized variable: __mask
+[linux-v2.6.33/drivers/net/smc91x.c:1288]: (error) Uninitialized variable: __mask
+[linux-v2.6.33/drivers/net/smc91x.c:1889]: (error) Uninitialized variable: val
+[linux-v2.6.33/drivers/net/smc91x.c:1955]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/net/sun3_82586.c:994]: (error) Array 'p.xmit_cmds[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/drivers/net/tokenring/proteon.c:168]: (error) Buffer is accessed out of bounds: cardname
+[linux-v2.6.33/drivers/net/tulip/de4x5.c:5075]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/drivers/net/tulip/de4x5.c:5076]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/drivers/net/tulip/de4x5.c:5077]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/drivers/net/tulip/de4x5.c:5078]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/drivers/net/tulip/de4x5.c:5079]: (error) Array 'lp.phy[8]' accessed at index 8, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/airo.c:7698]: (error) syntax error
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_9287.c:262]: (error) Array 'pRawDataSet[idxL].pwrPdg[4][1]' index pRawDataSet[idxL].pwrPdg[0][4] out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:368]: (error) Array 'eep.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:544]: (error) Array 'eep.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:1037]: (error) Array 'pEepData.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:1039]: (error) Array 'pEepData.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:1043]: (error) Array 'pEepData.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:1263]: (error) Array 'pEepData.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/eeprom_def.c:1439]: (error) Array 'eep.modalHeader[2]' accessed at index 128, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/hw.c:1678]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/hw.c:1680]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/drivers/net/wireless/ath/ath9k/main.c:2715]: (error) Uninitialized variable: enable_radio
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1902]: (error) Uninitialized variable: gains
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1904]: (error) Uninitialized variable: gains
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1902]: (error) Uninitialized struct member: gains.gm
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1904]: (error) Uninitialized struct member: gains.gm
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1902]: (error) Uninitialized struct member: gains.pga
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1904]: (error) Uninitialized struct member: gains.pga
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1902]: (error) Uninitialized struct member: gains.pad
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1904]: (error) Uninitialized struct member: gains.pad
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1902]: (error) Uninitialized struct member: gains.dac
+[linux-v2.6.33/drivers/net/wireless/b43/phy_lp.c:1904]: (error) Uninitialized struct member: gains.dac
+[linux-v2.6.33/drivers/net/wireless/hostap/hostap_ap.c:3153]: (error) Memory leak: sta
+[linux-v2.6.33/drivers/net/wireless/hostap/hostap_hw.c:2339]: (error) Memory leak: payload
+[linux-v2.6.33/drivers/net/wireless/ipw2x00/libipw_module.c:272]: (warning) %li in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/drivers/net/wireless/iwlwifi/iwl-3945.c:188]: (error) Array 'iwl3945_rates[12]' accessed at index 12, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/iwlwifi/iwl3945-base.c:1930]: (error) Array 'iwl3945_rates[12]' accessed at index 12, which is out of bounds.
+[linux-v2.6.33/drivers/net/wireless/libertas/cmd.c:871]: (error) Uninitialized struct member: cmd.control
+[linux-v2.6.33/drivers/net/wireless/libertas/cmd.c:873]: (error) Uninitialized struct member: cmd.control
+[linux-v2.6.33/drivers/net/wireless/orinoco/hw.c:1062]: (error) Uninitialized variable: mclist
+[linux-v2.6.33/drivers/pci/dmar.c:1122]: (error) Uninitialized variable: sts
+[linux-v2.6.33/drivers/pci/hotplug/fakephp.c:94]: (error) Memory leak: slot
+[linux-v2.6.33/drivers/pci/intr_remapping.c:560]: (error) Uninitialized variable: sts
+[linux-v2.6.33/drivers/pci/intel-iommu.c:885]: (error) Uninitialized variable: sts
+[linux-v2.6.33/drivers/pci/intel-iommu.c:903]: (error) Uninitialized variable: val
+[linux-v2.6.33/drivers/pci/intel-iommu.c:1127]: (error) Uninitialized variable: sts
+[linux-v2.6.33/drivers/pci/intel-iommu.c:1144]: (error) Uninitialized variable: sts
+[linux-v2.6.33/drivers/pci/pcie/aer/aerdrv.c:217]: (error) Memory leak: rpc
+[linux-v2.6.33/drivers/pcmcia/ds.c:1113]: (error) Possible null pointer dereference: p_drv
+[linux-v2.6.33/drivers/pcmcia/ds.c:1160]: (error) Possible null pointer dereference: p_drv
+[linux-v2.6.33/drivers/pcmcia/rsrc_nonstatic.c:346]: (error) Uninitialized variable: info1
+[linux-v2.6.33/drivers/pcmcia/rsrc_nonstatic.c:346]: (error) Uninitialized variable: info2
+[linux-v2.6.33/drivers/platform/x86/thinkpad_acpi.c:4950]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/platform/x86/thinkpad_acpi.c:5433]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/platform/x86/thinkpad_acpi.c:5857]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/pnp/card.c:179]: (error) Memory leak: dev_id
+[linux-v2.6.33/drivers/platform/x86/thinkpad_acpi.c:6987]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/rapidio/rio-scan.c:441]: (error) Uninitialized variable: result
+[linux-v2.6.33/drivers/s390/cio/css.c:326]: (error) Possible null pointer dereference: sch
+[linux-v2.6.33/drivers/s390/cio/css.c:327]: (error) Possible null pointer dereference: sch
+[linux-v2.6.33/drivers/s390/cio/css.c:328]: (error) Possible null pointer dereference: sch
+[linux-v2.6.33/drivers/s390/cio/css.c:329]: (error) Possible null pointer dereference: sch
+[linux-v2.6.33/drivers/s390/kvm/kvm_virtio.c:308]: (error) Memory leak: kdev
+[linux-v2.6.33/drivers/s390/net/ctcm_sysfs.c:46]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/ctcm_sysfs.c:149]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/lcs.c:1965]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/lcs.c:2019]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/netiucv.c:568]: (warning) Using 'sizeof' on array given as function argument returns size of a pointer.
+[linux-v2.6.33/drivers/s390/net/smsgiucv.c:61]: (warning) Using 'sizeof' on array given as function argument returns size of a pointer.
+[linux-v2.6.33/drivers/s390/net/qeth_l3_main.c:91]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/qeth_l3_main.c:91]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/qeth_l3_main.c:91]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/s390/net/qeth_l3_main.c:91]: (warning) %u in format string (no. 4) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/scsi/BusLogic.c:2086]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/drivers/scsi/aacraid/rx.c:484]: (error) Uninitialized variable: var
+[linux-v2.6.33/drivers/scsi/advansys.c:12044]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12047]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12048]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12049]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12050]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12051]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12052]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12053]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12054]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12055]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12056]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12057]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12059]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12061]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12063]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12065]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12066]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12070]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12071]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12072]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12074]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12076]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12077]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12078]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12079]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12080]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12081]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12082]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12083]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12084]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12085]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12087]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12089]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12091]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12093]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12098]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12099]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12100]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12102]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12104]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12105]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12106]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12107]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12108]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12109]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12110]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12111]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12112]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12113]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12115]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12117]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12119]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12121]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12161]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12164]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12225]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12227]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12229]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:12231]: (error) Possible null pointer dereference: adv_dvc_varp
+[linux-v2.6.33/drivers/scsi/advansys.c:11989]: (error) Uninitialized variable: ret
+[linux-v2.6.33/drivers/scsi/aic7xxx/aic79xx_core.c:6846]: (error) Memory leak: hscb_map
+[linux-v2.6.33/drivers/scsi/aic7xxx/aic79xx_core.c:6879]: (error) Memory leak: sg_map
+[linux-v2.6.33/drivers/scsi/aic7xxx/aic79xx_core.c:6916]: (error) Memory leak: sense_map
+[linux-v2.6.33/drivers/scsi/aic7xxx/aic7xxx_core.c:4998]: (error) Memory leak: sg_map
+[linux-v2.6.33/drivers/scsi/aic7xxx/aicasm/aicasm_symbol.c:649]: (error) Possible null pointer dereference: tab_str
+[linux-v2.6.33/drivers/scsi/aic7xxx/aicasm/aicasm_symbol.c:649]: (error) Possible null pointer dereference: tab_str2
+[linux-v2.6.33/drivers/scsi/be2iscsi/be_cmds.c:151]: (error) Uninitialized variable: compl
+[linux-v2.6.33/drivers/scsi/be2iscsi/be_main.c:3724]: (error) Possible null pointer dereference: phba
+[linux-v2.6.33/drivers/scsi/dpt_i2o.c:2628] -> [linux-v2.6.33/drivers/scsi/dpt_i2o.c:2653]: (warning) Array 'pHba.channel[5]' accessed at index 5, which is out of bounds. Otherwise condition 'bus_no>=5' is redundant.
+[linux-v2.6.33/drivers/scsi/eata_pio.c:961]: (error) Array 'reg_IRQ[16]' accessed at index 16, which is out of bounds.
+[linux-v2.6.33/drivers/scsi/libsas/sas_scsi_host.c:459]: (error) Possible null pointer dereference: exphy
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_attr.c:3700]: (error) Uninitialized variable: pmb
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_els.c:2861]: (error) Possible null pointer dereference: buf_ptr
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_init.c:900]: (error) Possible null pointer dereference: buf_ptr
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:687]: (error) Possible null pointer dereference: piocb
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:1453]: (error) Possible null pointer dereference: hbq_buffer
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:6556]: (error) Possible null pointer dereference: pmb
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:6557]: (error) Possible null pointer dereference: pmb
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:6698]: (error) Possible null pointer dereference: buf_ptr
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:8327]: (error) Possible null pointer dereference: cq_event
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:8356]: (error) Possible null pointer dereference: cq_event
+[linux-v2.6.33/drivers/scsi/lpfc/lpfc_sli.c:9372]: (error) Possible null pointer dereference: dmabuf
+[linux-v2.6.33/drivers/scsi/mpt2sas/mpt2sas_ctl.c:965]: (error) Buffer is accessed out of bounds.
+[linux-v2.6.33/drivers/scsi/mpt2sas/mpt2sas_ctl.c:966]: (error) Buffer is accessed out of bounds.
+[linux-v2.6.33/drivers/scsi/pcmcia/nsp_cs.c:300]: (error) Uninitialized struct member: tmp_sync.SyncRegister
+[linux-v2.6.33/drivers/scsi/pcmcia/nsp_cs.c:300]: (error) Uninitialized struct member: tmp_sync.AckWidth
+[linux-v2.6.33/drivers/scsi/pm8001/pm8001_hwi.c:4202]: (error) Memory leak: fw_control_context
+[linux-v2.6.33/drivers/scsi/pm8001/pm8001_hwi.c:4279]: (error) Memory leak: fw_control_context
+[linux-v2.6.33/drivers/scsi/pm8001/pm8001_hwi.c:4389]: (error) Memory leak: fw_control_context
+[linux-v2.6.33/drivers/scsi/st.c:249]: (error) Possible null pointer dereference: STp
+[linux-v2.6.33/drivers/scsi/st.c:252]: (error) Possible null pointer dereference: STp
+[linux-v2.6.33/drivers/serial/68360serial.c:2249]: (error) Uninitialized variable: up
+[linux-v2.6.33/drivers/serial/max3100.c:834]: (error) Array 'max3100s[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.33/drivers/serial/max3100.c:835]: (error) Array 'max3100s[4]' accessed at index 4, which is out of bounds.
+[linux-v2.6.33/drivers/serial/msm_serial.c:652]: (error) Uninitialized variable: baud
+[linux-v2.6.33/drivers/spi/dw_spi.c:711]: (error) Memory leak: chip
+[linux-v2.6.33/drivers/spi/spi_s3c24xx.c:334]: (error) Possible null pointer dereference: code
+[linux-v2.6.33/drivers/spi/spi_s3c24xx.c:337]: (error) Possible null pointer dereference: code
+[linux-v2.6.33/drivers/staging/comedi/drivers/addi-data/hwdrv_APCI1710.c:4]: (error) syntax error
+[linux-v2.6.33/drivers/staging/comedi/drivers/amplc_pc263.c:373]: (error) Invalid number of character ({) when these macros are defined: ''.
+[linux-v2.6.33/drivers/staging/comedi/drivers/amplc_pc263.c:373]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_COMEDI_DEBUG'.
+[linux-v2.6.33/drivers/staging/comedi/drivers/amplc_pc263.c:373]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_COMEDI_PCMCIA_DRIVERS'.
+[linux-v2.6.33/drivers/staging/comedi/drivers/amplc_pc263.c:373]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_COMEDI_PCMCIA_DRIVERS_MODULE'.
+[linux-v2.6.33/drivers/staging/comedi/drivers/amplc_pc263.c:373]: (error) Invalid number of character ({) when these macros are defined: 'CONFIG_PROC_FS'.
+[linux-v2.6.33/drivers/staging/comedi/drivers/cb_pcidda.c:311]: (error) Array 'cb_pcidda_boards[6]' accessed at index 9, which is out of bounds.
+[linux-v2.6.33/drivers/staging/comedi/drivers/ni_mio_common.c:5047]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/drivers/staging/comedi/drivers/pcmmio.c:553]: (error) Array 'irq[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/drivers/staging/comedi/drivers/pcmmio.c:554]: (error) Array 'irq[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/drivers/staging/dream/camera/msm_camera.c:1889]: (error) Memory leak: ctrl_pmsm
+[linux-v2.6.33/drivers/staging/dream/smd/smd_rpcrouter.c:1195]: (error) Memory leak: server
+[linux-v2.6.33/drivers/staging/iio/Documentation/lis3l02dqbuffersimple.c:107]: (error) Memory leak: data
+[linux-v2.6.33/drivers/staging/iio/Documentation/lis3l02dqbuffersimple.c:113]: (error) Memory leak: data
+[linux-v2.6.33/drivers/staging/iio/Documentation/lis3l02dqbuffersimple.c:170]: (error) Resource leak: fp_ev
+[linux-v2.6.33/drivers/staging/iio/accel/sca3000_core.c:153]: (error) Memory leak: rx
+[linux-v2.6.33/drivers/staging/iio/accel/sca3000_core.c:960]: (error) Memory leak: rx
+[linux-v2.6.33/drivers/staging/iio/accel/sca3000_core.c:983]: (error) Memory leak: rx
+[linux-v2.6.33/drivers/staging/line6/driver.c:833]: (error) Possible null pointer dereference: line6
+[linux-v2.6.33/drivers/staging/otus/80211core/coid.c:2199]: (error) Uninitialized struct member: keyInfo.initIv
+[linux-v2.6.33/drivers/staging/otus/80211core/coid.c:2199]: (error) Uninitialized struct member: keyInfo.vapId
+[linux-v2.6.33/drivers/staging/otus/80211core/coid.c:2238]: (error) Uninitialized struct member: keyInfo.initIv
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:263]: (warning) %x in format string (no. 1) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:263]: (warning) %x in format string (no. 2) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:263]: (warning) %x in format string (no. 3) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:263]: (warning) %x in format string (no. 4) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:263]: (warning) %x in format string (no. 5) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 1) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 2) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 3) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 4) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 5) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 6) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 7) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 8) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 9) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 10) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 11) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 12) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:267]: (warning) %x in format string (no. 13) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 1) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 2) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 3) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 4) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 5) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 6) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 7) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 8) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 9) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 10) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 11) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 12) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 13) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 14) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 15) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 16) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 17) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 18) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 19) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 20) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 21) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 22) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 23) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 24) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 25) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 26) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 27) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 28) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:274]: (warning) %x in format string (no. 29) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 1) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 2) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 3) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 4) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 5) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 6) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 7) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 8) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 9) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 10) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 11) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 12) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 13) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 14) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 15) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/apdbg.c:350]: (warning) %x in format string (no. 16) requires 'unsigned int *' but the argument type is 'unsigned char *'.
+[linux-v2.6.33/drivers/staging/otus/hal/hpreg.c:1695]: (error) Array 'regDomainPairs[103]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:876]: (error) Memory leak: pBssList
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:1235]: (error) Uninitialized struct member: keyInfo.initIv
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:1235]: (error) Uninitialized struct member: keyInfo.vapId
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:1235]: (error) Uninitialized struct member: keyInfo.macAddr
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:1978]: (error) Uninitialized struct member: keyInfo.initIv
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:1978]: (error) Uninitialized struct member: keyInfo.vapId
+[linux-v2.6.33/drivers/staging/otus/ioctl.c:1978]: (error) Uninitialized struct member: keyInfo.macAddr
+[linux-v2.6.33/drivers/staging/otus/wrap_ev.c:245]: (error) Uninitialized variable: buf
+[linux-v2.6.33/drivers/staging/panel/panel.c:1918]: (error) Memory leak: key
+[linux-v2.6.33/drivers/staging/pohmelfs/net.c:617]: (error) Possible null pointer dereference: t
+[linux-v2.6.33/drivers/staging/rt2860/common/cmm_wpa.c:692]: (error) Possible null pointer dereference: pBssid
+[linux-v2.6.33/drivers/staging/rt2860/common/cmm_wpa.c:1023]: (error) Possible null pointer dereference: pBssid
+[linux-v2.6.33/drivers/staging/rt2860/common/mlme.c:2698]: (error) Possible null pointer dereference: pRssiSample
+[linux-v2.6.33/drivers/staging/rt2860/common/mlme.c:2699]: (error) Possible null pointer dereference: pRssiSample
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:526]: (error) Uninitialized variable: data2
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:529]: (error) Uninitialized variable: data2
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:584]: (error) Uninitialized variable: data2
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:585]: (error) Uninitialized variable: data2
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:514]: (error) Uninitialized variable: PCIePowerSaveLevel
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:515]: (error) Uninitialized variable: PCIePowerSaveLevel
+[linux-v2.6.33/drivers/staging/rt2860/pci_main_dev.c:518]: (error) Uninitialized variable: PCIePowerSaveLevel
+[linux-v2.6.33/drivers/staging/rt2860/rt_linux.c:680]: (error) sprintf format string requires 6 parameters but only 1 is given.
+[linux-v2.6.33/drivers/staging/rt2860/sta/wpa.c:142]: (error) Undefined behavior: Variable 'custom' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/drivers/staging/rt2860/sta_ioctl.c:1526]: (error) Undefined behavior: Variable 'pOutBuf' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/drivers/staging/rt2860/sta_ioctl.c:1540]: (error) Undefined behavior: Variable 'pOutBuf' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/drivers/staging/rt2860/sta_ioctl.c:1542]: (error) Undefined behavior: Variable 'pOutBuf' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/drivers/staging/rt2860/sta_ioctl.c:1556]: (error) Undefined behavior: Variable 'pOutBuf' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/drivers/staging/rtl8192e/ieee80211/rtl819x_BAProc.c:525]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192e/ieee80211/rtl819x_BAProc.c:563]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192e/ieee80211/rtl819x_BAProc.c:583]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192su/ieee80211/rtl819x_BAProc.c:484]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192su/ieee80211/rtl819x_BAProc.c:522]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192su/ieee80211/rtl819x_BAProc.c:542]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192su/r8192S_rtl6052.c:253]: (error) Uninitialized variable: powerBase0
+[linux-v2.6.33/drivers/staging/rtl8192su/r8192S_phy.c:2032]: (error) Array 'priv.AntennaTxPwDiff[2]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/drivers/staging/rtl8192su/r8192S_phy.c:2037]: (error) Array 'priv.AntennaTxPwDiff[2]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/aes.c:311]: (error) Array 'ctx.E[60]' accessed at index 60, which is out of bounds.
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/aes.c:311]: (error) Array 'ctx.E[60]' accessed at index 61, which is out of bounds.
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/aes.c:311]: (error) Array 'ctx.E[60]' accessed at index 62, which is out of bounds.
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/aes.c:311]: (error) Array 'ctx.E[60]' accessed at index 63, which is out of bounds.
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c:483]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c:521]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c:541]: (error) Possible null pointer dereference: pTS
+[linux-v2.6.33/drivers/staging/rtl8192u/r8192U_core.c:1500]: (error) Possible null pointer dereference: dev
+[linux-v2.6.33/drivers/staging/rtl8192u/r8192U_core.c:5462]: (error) Possible null pointer dereference: driver_info
+[linux-v2.6.33/drivers/staging/slicoss/slicoss.c:837]: (error) Possible null pointer dereference: hcmd
+[linux-v2.6.33/drivers/staging/slicoss/slicoss.c:1202]: (error) Uninitialized variable: status
+[linux-v2.6.33/drivers/staging/sm7xx/smtc2d.c:744]: (error) Analysis failed. If the code is valid then please report this failure.
+[linux-v2.6.33/drivers/staging/usbip/vhci_sysfs.c:182]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/drivers/staging/vme/bridges/vme_tsi148.c:232]: (error) Memory leak: error
+[linux-v2.6.33/drivers/staging/vt6655/device_main.c:1166]: (error) Uninitialized variable: pci_cmd
+[linux-v2.6.33/drivers/staging/vt6656/bssdb.c:724]: (error) Division by zero.
+[linux-v2.6.33/drivers/staging/wavelan/wavelan.c:1800]: (error) Uninitialized variable: psa
+[linux-v2.6.33/drivers/staging/wavelan/wavelan_cs.c:1867]: (error) Uninitialized variable: psa
+[linux-v2.6.33/drivers/staging/winbond/phy_calibration.c:1252]: (error) Uninitialized variable: val
+[linux-v2.6.33/drivers/staging/wlags49_h2/wl_netdev.c:472]: (error) Invalid number of character (() when these macros are defined: 'DBG;NEW_MULTICAST'.
+[linux-v2.6.33/drivers/staging/wlags49_h2/wl_netdev.c:472]: (error) Invalid number of character (() when these macros are defined: 'NEW_MULTICAST'.
+[linux-v2.6.33/drivers/thermal/thermal_sys.c:377]: (warning) %ld in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/drivers/usb/atm/cxacru.c:1027]: (error) Uninitialized variable: bp
+[linux-v2.6.33/drivers/usb/atm/usbatm.c:1393]: (error) Undefined behavior: Variable 'buffer' is used as parameter and destination in s[n]printf().
+[linux-v2.6.33/drivers/usb/class/usbtmc.c:695]: (error) Uninitialized variable: actual
+[linux-v2.6.33/drivers/usb/core/config.c:408]: (error) Possible null pointer dereference: intfc
+[linux-v2.6.33/drivers/usb/core/config.c:409]: (error) Possible null pointer dereference: intfc
+[linux-v2.6.33/drivers/usb/early/ehci-dbgp.c:292]: (error) Uninitialized variable: ret
+[linux-v2.6.33/drivers/usb/gadget/ci13xxx_udc.c:1256]: (warning) %li in format string (no. 1) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/drivers/usb/gadget/ci13xxx_udc.c:1256]: (warning) %li in format string (no. 2) requires 'long *' but the argument type is 'unsigned long *'.
+[linux-v2.6.33/drivers/usb/gadget/dummy_hcd.c:258]: (error) Uninitialized variable: ep
+[linux-v2.6.33/drivers/usb/gadget/rndis.c:594]: (error) Memory leak: r
+[linux-v2.6.33/drivers/usb/gadget/rndis.c:698]: (error) Memory leak: r
+[linux-v2.6.33/drivers/usb/gadget/rndis.c:722]: (error) Memory leak: r
+[linux-v2.6.33/drivers/usb/gadget/rndis.c:752]: (error) Memory leak: r
+[linux-v2.6.33/drivers/usb/gadget/storage_common.c:599]: (error) Possible null pointer dereference: inode
+[linux-v2.6.33/drivers/usb/gadget/fsl_udc_core.c:752]: (error) Possible null pointer dereference: last_dtd
+[linux-v2.6.33/drivers/usb/gadget/fsl_udc_core.c:753]: (error) Possible null pointer dereference: last_dtd
+[linux-v2.6.33/drivers/usb/gadget/langwell_udc.c:764]: (error) Possible null pointer dereference: last_dtd
+[linux-v2.6.33/drivers/usb/gadget/langwell_udc.c:765]: (error) Possible null pointer dereference: last_dtd
+[linux-v2.6.33/drivers/usb/gadget/omap_udc.c:1417]: (error) Uninitialized variable: ep
+[linux-v2.6.33/drivers/usb/gadget/pxa27x_udc.c:2231]: (error) Array 'udc.pxa_ep[15]' accessed at index 16, which is out of bounds.
+[linux-v2.6.33/drivers/usb/host/ehci-q.c:1174]: (error) Dereferencing 'qh' after it is deallocated / released
+[linux-v2.6.33/drivers/usb/host/isp1362.h:954]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:439]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:445]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:702]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:710]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:718]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:1052]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:1061]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:1075]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:1106]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:1128]: (error) Uninitialized variable: __v
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:2730]: (error) Uninitialized variable: isp1362_hcd
+[linux-v2.6.33/drivers/usb/host/isp1362-hcd.c:2731]: (error) Uninitialized variable: isp1362_hcd
+[linux-v2.6.33/drivers/usb/host/xhci-ring.c:1795]: (error) Memory leak: td
+[linux-v2.6.33/drivers/usb/host/xhci-ring.c:2022]: (error) Memory leak: td
+[linux-v2.6.33/drivers/usb/host/xhci-ring.c:2116]: (error) Memory leak: td
+[linux-v2.6.33/drivers/usb/musb/cppi_dma.c:846]: (error) Possible null pointer dereference: tail
+[linux-v2.6.33/drivers/usb/musb/cppi_dma.c:847]: (error) Possible null pointer dereference: tail
+[linux-v2.6.33/drivers/usb/serial/empeg.c:220]: (error) Possible null pointer dereference: urb
+[linux-v2.6.33/drivers/usb/serial/kl5kusb105.c:523]: (error) Possible null pointer dereference: urb
+[linux-v2.6.33/drivers/usb/serial/mos7720.c:690]: (error) Possible null pointer dereference: urb
+[linux-v2.6.33/drivers/usb/serial/mos7840.c:1488]: (error) Possible null pointer dereference: urb
+[linux-v2.6.33/drivers/usb/serial/mos7840.c:1825]: (error) Uninitialized variable: Data
+[linux-v2.6.33/drivers/usb/serial/mos7840.c:1828]: (error) Uninitialized variable: Data
+[linux-v2.6.33/drivers/usb/serial/mos7840.c:1424]: (error) Uninitialized variable: mos7840_port
+[linux-v2.6.33/drivers/usb/serial/mos7840.c:1427]: (error) Uninitialized variable: mos7840_port
+[linux-v2.6.33/drivers/usb/serial/mos7840.c:1448]: (error) Uninitialized variable: mos7840_port
+[linux-v2.6.33/drivers/video/aty/mach64_ct.c:180]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/drivers/video/aty/mach64_ct.c:183]: (error) Shifting by a negative value is undefined behaviour
+[linux-v2.6.33/drivers/video/cirrusfb.c:2235] -> [linux-v2.6.33/drivers/video/cirrusfb.c:2266]: (warning) Array 'cirrusfb_zorro_table2[5]' accessed at index 5, which is out of bounds. Otherwise condition 'btype==5' is redundant.
+[linux-v2.6.33/drivers/video/cyber2000fb.c:1748]: (error) Uninitialized variable: err
+[linux-v2.6.33/drivers/video/efifb.c:193]: (error) Array 'dmi_list[12]' accessed at index 13, which is out of bounds.
+[linux-v2.6.33/drivers/video/efifb.c:194]: (error) Array 'dmi_list[12]' accessed at index 13, which is out of bounds.
+[linux-v2.6.33/drivers/video/omap/dispc.c:1217] -> [linux-v2.6.33/drivers/video/omap/dispc.c:1219]: (warning) Array 'dispc.res_map[2]' accessed at index 2, which is out of bounds. Otherwise condition 'mtype>=2' is redundant.
+[linux-v2.6.33/drivers/video/omap/rfbi.c:233]: (error) Division by zero.
+[linux-v2.6.33/drivers/video/omap/omapfb_main.c:1396]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/drivers/video/omap2/dss/rfbi.c:594]: (error) Division by zero.
+[linux-v2.6.33/drivers/video/omap2/omapfb/omapfb-ioctl.c:363]: (error) Possible null pointer dereference: mgr
+[linux-v2.6.33/drivers/video/pnx4008/sdum.c:143]: (error) Uninitialized struct member: chan.dum_ch_stat
+[linux-v2.6.33/drivers/video/sis/init301.c:5819]: (error) Division by zero.
+[linux-v2.6.33/drivers/video/sm501fb.c:1724]: (error) Possible null pointer dereference: pd
+[linux-v2.6.33/drivers/watchdog/cpwd.c:271]: (error) Array 'p.devs[3]' accessed at index 3, which is out of bounds.
+[linux-v2.6.33/drivers/watchdog/cpwd.c:651]: (error) Array 'p.devs[3]' accessed at index 3, which is out of bounds.
+[linux-v2.6.33/drivers/watchdog/machzwd.c:147]: (error) Invalid number of character (() when these macros are defined: 'ZF_DEBUG'.
+[linux-v2.6.33/drivers/xen/xenbus/xenbus_probe.c:231]: (error) Uninitialized variable: bus
+[linux-v2.6.33/fs/9p/vfs_inode.c:912]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/fs/9p/vfs_inode.c:912]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/fs/adfs/dir.c:70]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v2.6.33/fs/adfs/dir.c:191]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v2.6.33/fs/adfs/dir.c:107]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[linux-v2.6.33/fs/bio.c:140]: (error) Possible null pointer dereference: bslab
+[linux-v2.6.33/fs/cifs/cifs_dfs_ref.c:256]: (error) Memory leak: devname
+[linux-v2.6.33/fs/cifs/connect.c:2527]: (error) Possible null pointer dereference: tcon
+[linux-v2.6.33/fs/fuse/file.c:1682]: (error) Possible null pointer dereference: pages
+[linux-v2.6.33/fs/gfs2/ops_inode.c:1052]: (error) Memory leak: buf
+[linux-v2.6.33/fs/hostfs/hostfs_kern.c:723]: (error) Memory leak: file
+[linux-v2.6.33/fs/jfs/jfs_txnmgr.c:1934]: (error) Uninitialized variable: pxd
+[linux-v2.6.33/fs/jfs/jfs_txnmgr.c:1934]: (error) Uninitialized struct member: pxd.len
+[linux-v2.6.33/fs/jfs/jfs_txnmgr.c:1934]: (error) Uninitialized struct member: pxd.addr1
+[linux-v2.6.33/fs/jfs/jfs_txnmgr.c:1934]: (error) Uninitialized struct member: pxd.addr2
+[linux-v2.6.33/fs/locks.c:248]: (error) Possible null pointer dereference: new
+[linux-v2.6.33/fs/locks.c:249]: (error) Possible null pointer dereference: new
+[linux-v2.6.33/fs/locks.c:250]: (error) Possible null pointer dereference: new
+[linux-v2.6.33/fs/locks.c:560]: (error) Possible null pointer dereference: fl
+[linux-v2.6.33/fs/locks.c:563]: (error) Possible null pointer dereference: fl
+[linux-v2.6.33/fs/nfsd/nfsctl.c:993]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/fs/nfsd/nfsctl.c:1024]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/fs/nfsd/nfs4state.c:440]: (error) Division by zero.
+[linux-v2.6.33/fs/nfsd/nfssvc.c:210]: (error) Array 'nfsd_version[1]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/fs/nfsd/nfssvc.c:210]: (error) Array 'nfsd_version[2]' accessed at index 2, which is out of bounds.
+[linux-v2.6.33/fs/nfsd/vfs.c:534]: (error) Memory leak: buf
+[linux-v2.6.33/fs/ntfs/compress.c:227]: (error) Uninitialized variable: completed_pages
+[linux-v2.6.33/fs/ocfs2/dlm/dlmrecovery.c:1814]: (error) Possible null pointer dereference: lock
+[linux-v2.6.33/fs/proc/base.c:625]: (error) Possible null pointer dereference: ns
+[linux-v2.6.33/fs/reiserfs/prints.c:593]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.33/fs/sysfs/inode.c:151]: (error) Memory leak: iattrs
+[linux-v2.6.33/fs/xfs/xfs_btree.c:3078]: (error) Array 'cur.bc_ptrs[8]' accessed at index 9998, which is out of bounds.
+[linux-v2.6.33/fs/xfs/xfs_dir2_block.c:1152]: (error) Array 'dep.name[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/fs/xfs/xfs_dir2_sf.c:115]: (error) Array 'dep.name[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/fs/xfs/xfs_dir2_sf.c:236]: (error) Array 'dep.name[1]' accessed at index 1, which is out of bounds.
+[linux-v2.6.33/kernel/compat.c:110]: (error) Uninitialized variable: rmt
+[linux-v2.6.33/kernel/compat.c:119]: (error) Uninitialized variable: rmt
+[linux-v2.6.33/kernel/compat.c:142]: (error) Uninitialized variable: rmt
+[linux-v2.6.33/kernel/compat.c:153]: (error) Uninitialized variable: rmt
+[linux-v2.6.33/kernel/compat.c:339]: (error) Uninitialized variable: r
+[linux-v2.6.33/kernel/compat.c:387]: (error) Uninitialized variable: r
+[linux-v2.6.33/kernel/compat.c:393]: (error) Uninitialized variable: r
+[linux-v2.6.33/kernel/compat.c:415]: (error) Uninitialized variable: r
+[linux-v2.6.33/kernel/compat.c:419]: (error) Uninitialized variable: r
+[linux-v2.6.33/kernel/compat.c:441]: (error) Uninitialized variable: ru
+[linux-v2.6.33/kernel/compat.c:448]: (error) Uninitialized variable: ru
+[linux-v2.6.33/kernel/compat.c:575]: (error) Uninitialized variable: oldts
+[linux-v2.6.33/kernel/compat.c:577]: (error) Uninitialized variable: oldts
+[linux-v2.6.33/kernel/compat.c:592]: (error) Uninitialized variable: ts
+[linux-v2.6.33/kernel/compat.c:594]: (error) Uninitialized variable: ts
+[linux-v2.6.33/kernel/compat.c:626]: (error) Uninitialized variable: ts
+[linux-v2.6.33/kernel/compat.c:628]: (error) Uninitialized variable: ts
+[linux-v2.6.33/kernel/compat.c:643]: (error) Uninitialized variable: ts
+[linux-v2.6.33/kernel/compat.c:645]: (error) Uninitialized variable: ts
+[linux-v2.6.33/kernel/compat.c:657]: (error) Uninitialized variable: tu
+[linux-v2.6.33/kernel/compat.c:664]: (error) Uninitialized variable: tu
+[linux-v2.6.33/kernel/compat.c:690]: (error) Uninitialized variable: out
+[linux-v2.6.33/kernel/compat.c:694]: (error) Uninitialized variable: out
+[linux-v2.6.33/kernel/power/hibernate.c:821]: (error) Array 'hibernation_modes[5]' accessed at index 5, which is out of bounds.
+[linux-v2.6.33/kernel/power/hibernate.c:859]: (error) Array 'hibernation_modes[5]' accessed at index 5, which is out of bounds.
+[linux-v2.6.33/kernel/power/hibernate.c:860]: (error) Array 'hibernation_modes[5]' accessed at index 5, which is out of bounds.
+[linux-v2.6.33/lib/dma-debug.c:578]: (error) Array 'current_driver_name[64]' accessed at index 64, which is out of bounds.
+[linux-v2.6.33/lib/flex_array.c:253]: (error) Memory leak: part
+[linux-v2.6.33/mm/mlock.c:523]: (error) Possible null pointer dereference: prev
+[linux-v2.6.33/mm/percpu.c:1365]: (error) Uninitialized variable: ai
+[linux-v2.6.33/mm/slab.c:2689]: (error) Uninitialized variable: slabp
+[linux-v2.6.33/net/ax25/ax25_dev.c:37]: (error) Uninitialized variable: ax25_dev
+[linux-v2.6.33/net/ax25/ax25_dev.c:147]: (error) Uninitialized variable: ax25_dev
+[linux-v2.6.33/net/core/skbuff.c:2573]: (error) Possible null pointer dereference: tail
+[linux-v2.6.33/net/ipv4/inetpeer.c:285]: (error) Uninitialized variable: stackptr
+[linux-v2.6.33/net/ipv4/netfilter/nf_nat_ftp.c:41]: (error) sprintf format string requires 6 parameters but only 3 are given.
+[linux-v2.6.33/net/ipv4/netfilter/nf_nat_ftp.c:62]: (error) sprintf format string requires 5 parameters but only 2 are given.
+[linux-v2.6.33/net/ipv6/addrconf.c:829]: (error) Possible null pointer dereference: rt
+[linux-v2.6.33/net/ipv6/ip6mr.c:398]: (error) Possible null pointer dereference: reg_dev
+[linux-v2.6.33/net/ipv6/ip6mr.c:399]: (error) Possible null pointer dereference: reg_dev
+[linux-v2.6.33/net/ipv6/netfilter/nf_conntrack_reasm.c:439]: (error) Uninitialized variable: head
+[linux-v2.6.33/net/ipv6/reassembly.c:523]: (error) Uninitialized variable: head
+[linux-v2.6.33/net/netfilter/ipvs/ip_vs_ftp.c:211]: (error) sprintf format string requires 6 parameters but only 3 are given.
+[linux-v2.6.33/net/netfilter/ipvs/ip_vs_ctl.c:2388]: (error) sprintf format string requires 4 parameters but only 2 are given.
+[linux-v2.6.33/net/phonet/pn_dev.c:155]: (error) Memory leak: pnd
+[linux-v2.6.33/net/sctp/sm_make_chunk.c:1364]: (error) Possible null pointer dereference: data
+[linux-v2.6.33/net/sunrpc/svcauth_unix.c:212]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/net/sunrpc/svcauth_unix.c:212]: (warning) %u in format string (no. 2) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/net/sunrpc/svcauth_unix.c:212]: (warning) %u in format string (no. 3) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/net/sunrpc/svcauth_unix.c:212]: (warning) %u in format string (no. 4) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/net/sunrpc/svcsock.c:1013]: (error) Possible null pointer dereference: req
+[linux-v2.6.33/net/sunrpc/svcsock.c:1015]: (error) Possible null pointer dereference: req
+[linux-v2.6.33/net/sunrpc/xprtrdma/transport.c:168]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.33/net/sunrpc/xprtsock.c:300]: (error) snprintf format string requires 4 parameters but only 1 is given.
+[linux-v2.6.33/net/wireless/wext-sme.c:336]: (error) Possible null pointer dereference: ie
+[linux-v2.6.33/scripts/dtc/dtc.h:54]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.33/scripts/dtc/checks.c:99]: (error) va_list 'ap' was opened but not closed by va_end().
+[linux-v2.6.33/scripts/genksyms/genksyms.c:795]: (error) Resource leak: dumpfile
+[linux-v2.6.33/scripts/genksyms/genksyms.c:795]: (error) Resource leak: ref_file
+[linux-v2.6.33/scripts/kconfig/confdata.c:705]: (error) Resource leak: tristate
+[linux-v2.6.33/security/selinux/selinuxfs.c:1090]: (warning) %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'int *'.
+[linux-v2.6.33/security/smack/smackfs.c:808]: (warning) %d in format string (no. 5) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/core/pcm_lib.c:1021]: (error) va_list 'args' was opened but not closed by va_end().
+[linux-v2.6.33/sound/core/seq/seq_dummy.c:222]: (error) Memory leak: rec1
+[linux-v2.6.33/sound/core/seq/seq_dummy.c:230]: (error) Memory leak: rec2
+[linux-v2.6.33/sound/oss/midi_synth.c:51]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/midi_synth.c:57]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/midi_synth.c:61]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/midi_synth.c:66]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/midi_synth.c:70]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/midi_synth.c:74]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/midi_synth.c:79]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/mpu401.c:1660]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/mpu401.c:1671]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/mpu401.c:1681]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/mpu401.c:1689]: (error) Uninitialized variable: len
+[linux-v2.6.33/sound/oss/sequencer.c:1638]: (error) Array 'semitone_tuning[24]' accessed at index 99, which is out of bounds.
+[linux-v2.6.33/sound/pci/hda/hda_hwdep.c:643]: (warning) %i in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/pci/hda/hda_hwdep.c:643]: (warning) %i in format string (no. 2) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/pci/hda/hda_hwdep.c:643]: (warning) %i in format string (no. 3) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/pci/hda/patch_sigmatel.c:4781]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/pci/hda/patch_sigmatel.c:4781]: (warning) %d in format string (no. 2) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/pci/hda/patch_sigmatel.c:4787]: (warning) %d in format string (no. 1) requires 'int *' but the argument type is 'unsigned int *'.
+[linux-v2.6.33/sound/pci/pcxhr/pcxhr.c:705]: (error) Uninitialized struct member: pipe.first_audio
+[linux-v2.6.33/sound/soc/codecs/wm8988.c:1007]: (error) Uninitialized variable: ret
+[linux-v2.6.33/sound/synth/emux/soundfont.c:1023]: (error) Memory leak: zone
+[linux-v2.6.33/tools/perf/bench/sched-messaging.c:337]: (error) Memory leak: pth_tab
+[linux-v2.6.33/tools/perf/builtin-sched.c:330]: (error) Common realloc mistake: 'tasks' nulled but not freed upon failure
+[linux-v2.6.33/tools/perf/builtin-timechart.c:382]: (error) Memory leak: pwr
+[linux-v2.6.33/tools/perf/builtin-timechart.c:552]: (error) Memory leak: pwr
+[linux-v2.6.33/tools/perf/perf.c:213]: (error) Common realloc mistake: 'new_argv' nulled but not freed upon failure
+[linux-v2.6.33/tools/perf/util/parse-events.c:523]: (error) Memory leak: evt_name
+[linux-v2.6.33/tools/perf/util/run-command.c:275]: (error) Possible null pointer dereference: argv
+[linux-v2.6.33/tools/perf/util/run-command.c:276]: (error) Possible null pointer dereference: argv
+[linux-v2.6.33/tools/perf/util/strbuf.c:115]: (error) Common realloc mistake: 'ret' nulled but not freed upon failure
+[linux-v2.6.33/tools/perf/util/symbol.c:1230]: (error) Memory leak: name
+[linux-v2.6.33/tools/perf/util/values.c:172]: (error) Memory leak: counterwidth
