@@ -134,7 +134,17 @@ ggplot(testing, aes(modules)) +
 anova(quadratic_model, cubic_model)
 
 # Comare R-squared error
-quadratic_model
-cubic_model
+summary(quadratic_model)
+summary(cubic_model)
+
+# K-fold cross validation (compare mean squared error)
+library(DAAG)
+cubic_cv <- CVlm(df=testing, 
+                 form.lm=formula(cwe457 ~ modules + I(modules^2) + I(modules^3)),
+                 m=3, main="k-fold Cross Validation - Cubic Model")
+quadratic_cv <- CVlm(df=testing, 
+                     form.lm=formula(cwe457 ~ modules + I(modules^2)), 
+                     m=3, main="k-fold Cross Validation - Quadratic Model")
+
 
 dev.off()
