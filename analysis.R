@@ -36,7 +36,7 @@ ggplot(data, aes(modules)) +
   theme(axis.title.y=element_blank()) +
   scale_colour_manual(values=c("blue","red","yellow"),name="Vulnerabilities") +
   scale_y_continuous(limits=c(0.001,0.012), breaks=seq(0,0.015,0.001)) +
-  scale_x_continuous(limits=c(14000,38000), breaks=seq(0,40000,2000))
+  scale_x_continuous(limits=c(14000,38000), breaks=seq(0,40000,4000))
 
 ggplot(data, aes(modules)) + 
   geom_line(aes(y = data$taxCWE476, colour = "CWE476")) + 
